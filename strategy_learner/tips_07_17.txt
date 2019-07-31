@@ -1,0 +1,3338 @@
+Downloaded -SPY data
+Downloaded -MMM data
+Started Learning for - MMM
+/home/martin/PycharmProjects/personal_trading/strategy_learner/indicators.py:17: FutureWarning: pd.rolling_mean is deprecated for DataFrame and will be removed in a future version, replace with
+	DataFrame.rolling(window=20,center=False).mean()
+  rm_df = pd.rolling_mean(price_df,window=20)
+/home/martin/PycharmProjects/personal_trading/strategy_learner/indicators.py:18: FutureWarning: pd.rolling_std is deprecated for DataFrame and will be removed in a future version, replace with
+	DataFrame.rolling(window=20,center=False).std()
+  r_std =pd.rolling_std(price_df,window=20)
+/home/martin/PycharmProjects/personal_trading/strategy_learner/indicators.py:30: FutureWarning: pd.rolling_mean is deprecated for DataFrame and will be removed in a future version, replace with
+	DataFrame.rolling(window=10,center=False).mean()
+  RolUp = pd.rolling_mean(dUp, lookback)
+/home/martin/PycharmProjects/personal_trading/strategy_learner/indicators.py:31: FutureWarning: pd.rolling_mean is deprecated for DataFrame and will be removed in a future version, replace with
+	DataFrame.rolling(window=10,center=False).mean()
+  RolDown = pd.rolling_mean(dDown, lookback).abs()
+Learner Return 346.257826642
+**********Tips for MMM******************
+Buy
+------------------------------------------------------
+Downloaded -AOS data
+Started Learning for - AOS
+Learner Return 195.298077259
+**********Tips for AOS******************
+Buy
+------------------------------------------------------
+Downloaded -ABT data
+Started Learning for - ABT
+Learner Return 167.239327134
+**********Tips for ABT******************
+Hold
+------------------------------------------------------
+Downloaded -ABBV data
+Started Learning for - ABBV
+Learner Return 322.327959398
+**********Tips for ABBV******************
+Hold
+------------------------------------------------------
+Downloaded -ACN data
+Started Learning for - ACN
+Learner Return 417.981300927
+**********Tips for ACN******************
+Hold
+------------------------------------------------------
+Downloaded -ATVI data
+Started Learning for - ATVI
+Learner Return 511.491218458
+**********Tips for ATVI******************
+Sell
+------------------------------------------------------
+Downloaded -AYI data
+Started Learning for - AYI
+Learner Return 11000.5625031
+**********Tips for AYI******************
+Hold
+------------------------------------------------------
+Downloaded -ADBE data
+Started Learning for - ADBE
+Learner Return 3629.46137752
+**********Tips for ADBE******************
+Hold
+------------------------------------------------------
+Downloaded -AAP data
+Started Learning for - AAP
+Learner Return 702.487821495
+**********Tips for AAP******************
+Hold
+------------------------------------------------------
+Downloaded -AMD data
+Started Learning for - AMD
+Learner Return 212.843771916
+**********Tips for AMD******************
+Sell
+------------------------------------------------------
+Downloaded -AES data
+Started Learning for - AES
+Learner Return 56.6610614422
+**********Tips for AES******************
+Sell
+------------------------------------------------------
+AET failed
+Traceback (most recent call last):
+  File "TradingTips.py", line 29, in <module>
+    pull_historical_data(sym, start_day - timedelta(days=50), end_day)
+  File "TradingTips.py", line 10, in pull_historical_data
+    stoc_data = pdr.get_data_yahoo(symbols=ticker_symbol, start=sd, end=ed)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas_datareader/data.py", line 70, in get_data_yahoo
+    return YahooDailyReader(*args, **kwargs).read()
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas_datareader/base.py", line 210, in read
+    params=self._get_params(self.symbols))
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas_datareader/yahoo/daily.py", line 142, in _read_one_data
+    to_datetime(prices['Date'], unit='s').dt.date)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/frame.py", line 1964, in __getitem__
+    return self._getitem_column(key)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/frame.py", line 1971, in _getitem_column
+    return self._get_item_cache(key)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/generic.py", line 1645, in _get_item_cache
+    values = self._data.get(item)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/internals.py", line 3590, in get
+    loc = self.items.get_loc(item)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/indexes/base.py", line 2444, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 132, in pandas._libs.index.IndexEngine.get_loc (pandas/_libs/index.c:5280)
+  File "pandas/_libs/index.pyx", line 154, in pandas._libs.index.IndexEngine.get_loc (pandas/_libs/index.c:5126)
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1210, in pandas._libs.hashtable.PyObjectHashTable.get_item (pandas/_libs/hashtable.c:20523)
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1218, in pandas._libs.hashtable.PyObjectHashTable.get_item (pandas/_libs/hashtable.c:20477)
+KeyError: 'Date'
+Downloaded -AMG data
+Started Learning for - AMG
+Learner Return 600.58997161
+**********Tips for AMG******************
+Sell
+------------------------------------------------------
+Downloaded -AFL data
+Started Learning for - AFL
+Learner Return 98.0393726544
+**********Tips for AFL******************
+Sell
+------------------------------------------------------
+Downloaded -A data
+Started Learning for - A
+Learner Return 278.783585357
+**********Tips for A******************
+Hold
+------------------------------------------------------
+Downloaded -APD data
+Started Learning for - APD
+Learner Return 298.427892362
+**********Tips for APD******************
+Hold
+------------------------------------------------------
+Downloaded -AKAM data
+Started Learning for - AKAM
+Learner Return 431.826191618
+**********Tips for AKAM******************
+Hold
+------------------------------------------------------
+Downloaded -ALK data
+Started Learning for - ALK
+Learner Return 561.521675681
+**********Tips for ALK******************
+Hold
+------------------------------------------------------
+Downloaded -ALB data
+Started Learning for - ALB
+Learner Return 342.151478636
+**********Tips for ALB******************
+Sell
+------------------------------------------------------
+Downloaded -ARE data
+Started Learning for - ARE
+Learner Return 383.983582128
+**********Tips for ARE******************
+Hold
+------------------------------------------------------
+Downloaded -ALXN data
+Started Learning for - ALXN
+Learner Return 473.378913581
+**********Tips for ALXN******************
+Sell
+------------------------------------------------------
+Downloaded -ALGN data
+Started Learning for - ALGN
+Learner Return 1019.91613986
+**********Tips for ALGN******************
+Sell
+------------------------------------------------------
+Downloaded -ALLE data
+Started Learning for - ALLE
+Learner Return 219.907165717
+**********Tips for ALLE******************
+Hold
+------------------------------------------------------
+Downloaded -AGN data
+Started Learning for - AGN
+Learner Return 380.862547033
+**********Tips for AGN******************
+Hold
+------------------------------------------------------
+Downloaded -ADS data
+Started Learning for - ADS
+Learner Return 1031.09397979
+**********Tips for ADS******************
+Hold
+------------------------------------------------------
+Downloaded -LNT data
+Started Learning for - LNT
+Learner Return 145.980096063
+**********Tips for LNT******************
+Hold
+------------------------------------------------------
+Downloaded -ALL data
+Started Learning for - ALL
+Learner Return 277.335590556
+**********Tips for ALL******************
+Sell
+------------------------------------------------------
+Downloaded -GOOGL data
+Started Learning for - GOOGL
+Learner Return 791.207210578
+**********Tips for GOOGL******************
+Sell
+------------------------------------------------------
+Downloaded -GOOG data
+Started Learning for - GOOG
+Learner Return 4577.71484624
+**********Tips for GOOG******************
+Hold
+------------------------------------------------------
+Downloaded -MO data
+Started Learning for - MO
+Learner Return 171.004446167
+**********Tips for MO******************
+Hold
+------------------------------------------------------
+Downloaded -AMZN data
+Started Learning for - AMZN
+Learner Return 1319.48705928
+**********Tips for AMZN******************
+Sell
+------------------------------------------------------
+Downloaded -AEE data
+Started Learning for - AEE
+Learner Return 184.516668109
+**********Tips for AEE******************
+Hold
+------------------------------------------------------
+Downloaded -AAL data
+Started Learning for - AAL
+Learner Return 330.261293415
+**********Tips for AAL******************
+Buy
+------------------------------------------------------
+Downloaded -AEP data
+Started Learning for - AEP
+Learner Return 204.548828679
+**********Tips for AEP******************
+Hold
+------------------------------------------------------
+Downloaded -AXP data
+Started Learning for - AXP
+Learner Return 472.358374218
+**********Tips for AXP******************
+Hold
+------------------------------------------------------
+Downloaded -AIG data
+Started Learning for - AIG
+Learner Return 150.355287089
+**********Tips for AIG******************
+Hold
+------------------------------------------------------
+Downloaded -AMT data
+Started Learning for - AMT
+Learner Return 503.853820433
+**********Tips for AMT******************
+Hold
+------------------------------------------------------
+Downloaded -AWK data
+Started Learning for - AWK
+Learner Return 387.106062759
+**********Tips for AWK******************
+Hold
+------------------------------------------------------
+Downloaded -AMP data
+Started Learning for - AMP
+Learner Return 1522.89495424
+**********Tips for AMP******************
+Buy
+------------------------------------------------------
+Downloaded -ABC data
+Started Learning for - ABC
+Learner Return 756.875897661
+**********Tips for ABC******************
+Hold
+------------------------------------------------------
+Downloaded -AME data
+Started Learning for - AME
+Learner Return 233.319935266
+**********Tips for AME******************
+Buy
+------------------------------------------------------
+Downloaded -AMGN data
+Started Learning for - AMGN
+Learner Return 639.992794787
+**********Tips for AMGN******************
+Hold
+------------------------------------------------------
+Downloaded -APH data
+Started Learning for - APH
+Learner Return 268.629660378
+**********Tips for APH******************
+Hold
+------------------------------------------------------
+Downloaded -APC data
+Started Learning for - APC
+Learner Return 221.858543235
+**********Tips for APC******************
+Hold
+------------------------------------------------------
+Downloaded -ADI data
+Started Learning for - ADI
+Learner Return 645.273074976
+**********Tips for ADI******************
+Hold
+------------------------------------------------------
+ANDV failed
+Traceback (most recent call last):
+  File "TradingTips.py", line 29, in <module>
+    pull_historical_data(sym, start_day - timedelta(days=50), end_day)
+  File "TradingTips.py", line 10, in pull_historical_data
+    stoc_data = pdr.get_data_yahoo(symbols=ticker_symbol, start=sd, end=ed)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas_datareader/data.py", line 70, in get_data_yahoo
+    return YahooDailyReader(*args, **kwargs).read()
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas_datareader/base.py", line 210, in read
+    params=self._get_params(self.symbols))
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas_datareader/yahoo/daily.py", line 142, in _read_one_data
+    to_datetime(prices['Date'], unit='s').dt.date)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/frame.py", line 1964, in __getitem__
+    return self._getitem_column(key)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/frame.py", line 1971, in _getitem_column
+    return self._get_item_cache(key)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/generic.py", line 1645, in _get_item_cache
+    values = self._data.get(item)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/internals.py", line 3590, in get
+    loc = self.items.get_loc(item)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/indexes/base.py", line 2444, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 132, in pandas._libs.index.IndexEngine.get_loc (pandas/_libs/index.c:5280)
+  File "pandas/_libs/index.pyx", line 154, in pandas._libs.index.IndexEngine.get_loc (pandas/_libs/index.c:5126)
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1210, in pandas._libs.hashtable.PyObjectHashTable.get_item (pandas/_libs/hashtable.c:20523)
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1218, in pandas._libs.hashtable.PyObjectHashTable.get_item (pandas/_libs/hashtable.c:20477)
+KeyError: 'Date'
+Downloaded -ANSS data
+Started Learning for - ANSS
+Learner Return 414.903392636
+**********Tips for ANSS******************
+Hold
+------------------------------------------------------
+Downloaded -ANTM data
+Started Learning for - ANTM
+Learner Return 973.376241907
+**********Tips for ANTM******************
+Hold
+------------------------------------------------------
+Downloaded -AON data
+Started Learning for - AON
+Learner Return 1087.99808038
+**********Tips for AON******************
+Hold
+------------------------------------------------------
+Downloaded -APA data
+Started Learning for - APA
+Learner Return 258.513911114
+**********Tips for APA******************
+Hold
+------------------------------------------------------
+Downloaded -AIV data
+Started Learning for - AIV
+Learner Return 128.459281692
+**********Tips for AIV******************
+Hold
+------------------------------------------------------
+Downloaded -AAPL data
+Started Learning for - AAPL
+Learner Return 724.529779294
+**********Tips for AAPL******************
+Hold
+------------------------------------------------------
+Downloaded -AMAT data
+Started Learning for - AMAT
+Learner Return 229.940494663
+**********Tips for AMAT******************
+Hold
+------------------------------------------------------
+Downloaded -APTV data
+Started Learning for - APTV
+Learner Return 540.673220716
+**********Tips for APTV******************
+Hold
+------------------------------------------------------
+Downloaded -ADM data
+Started Learning for - ADM
+Learner Return 109.227821478
+**********Tips for ADM******************
+Hold
+------------------------------------------------------
+Downloaded -ARNC data
+Started Learning for - ARNC
+Learner Return 141.623323353
+**********Tips for ARNC******************
+Sell
+------------------------------------------------------
+Downloaded -AJG data
+Started Learning for - AJG
+Learner Return 251.388118195
+**********Tips for AJG******************
+Buy
+------------------------------------------------------
+Downloaded -AIZ data
+Started Learning for - AIZ
+Learner Return 314.613376052
+**********Tips for AIZ******************
+Hold
+------------------------------------------------------
+Downloaded -T data
+Started Learning for - T
+Learner Return 107.629288082
+**********Tips for T******************
+Hold
+------------------------------------------------------
+Downloaded -ADSK data
+Started Learning for - ADSK
+Learner Return 1465.40462167
+**********Tips for ADSK******************
+Hold
+------------------------------------------------------
+Downloaded -ADP data
+Started Learning for - ADP
+Learner Return 788.600741127
+**********Tips for ADP******************
+Hold
+------------------------------------------------------
+Downloaded -AZO data
+Started Learning for - AZO
+Learner Return 689.280627111
+**********Tips for AZO******************
+Hold
+------------------------------------------------------
+Downloaded -AVB data
+Started Learning for - AVB
+Learner Return 251.611940745
+**********Tips for AVB******************
+Hold
+------------------------------------------------------
+Downloaded -AVY data
+Started Learning for - AVY
+Learner Return 241.085862353
+**********Tips for AVY******************
+Buy
+------------------------------------------------------
+Downloaded -BHGE data
+Started Learning for - BHGE
+Learner Return 146.370300518
+**********Tips for BHGE******************
+Sell
+------------------------------------------------------
+Downloaded -BLL data
+Started Learning for - BLL
+Learner Return 123.773717041
+**********Tips for BLL******************
+Sell
+------------------------------------------------------
+Downloaded -BAC data
+Started Learning for - BAC
+Learner Return 126.711519432
+**********Tips for BAC******************
+Hold
+------------------------------------------------------
+Downloaded -BAX data
+Started Learning for - BAX
+Learner Return 290.097860659
+**********Tips for BAX******************
+Hold
+------------------------------------------------------
+Downloaded -BBT data
+Started Learning for - BBT
+Learner Return 165.838043651
+**********Tips for BBT******************
+Hold
+------------------------------------------------------
+Downloaded -BDX data
+Started Learning for - BDX
+Learner Return 409.659447737
+**********Tips for BDX******************
+Buy
+------------------------------------------------------
+BRK.B failed
+Traceback (most recent call last):
+  File "TradingTips.py", line 29, in <module>
+    pull_historical_data(sym, start_day - timedelta(days=50), end_day)
+  File "TradingTips.py", line 10, in pull_historical_data
+    stoc_data = pdr.get_data_yahoo(symbols=ticker_symbol, start=sd, end=ed)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas_datareader/data.py", line 70, in get_data_yahoo
+    return YahooDailyReader(*args, **kwargs).read()
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas_datareader/base.py", line 210, in read
+    params=self._get_params(self.symbols))
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas_datareader/yahoo/daily.py", line 142, in _read_one_data
+    to_datetime(prices['Date'], unit='s').dt.date)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/frame.py", line 1964, in __getitem__
+    return self._getitem_column(key)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/frame.py", line 1971, in _getitem_column
+    return self._get_item_cache(key)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/generic.py", line 1645, in _get_item_cache
+    values = self._data.get(item)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/internals.py", line 3590, in get
+    loc = self.items.get_loc(item)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/indexes/base.py", line 2444, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 132, in pandas._libs.index.IndexEngine.get_loc (pandas/_libs/index.c:5280)
+  File "pandas/_libs/index.pyx", line 154, in pandas._libs.index.IndexEngine.get_loc (pandas/_libs/index.c:5126)
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1210, in pandas._libs.hashtable.PyObjectHashTable.get_item (pandas/_libs/hashtable.c:20523)
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1218, in pandas._libs.hashtable.PyObjectHashTable.get_item (pandas/_libs/hashtable.c:20477)
+KeyError: 'Date'
+Downloaded -BBY data
+Started Learning for - BBY
+Learner Return 467.688533058
+**********Tips for BBY******************
+Buy
+------------------------------------------------------
+Downloaded -BIIB data
+Started Learning for - BIIB
+Learner Return -5270.47980368
+**********Tips for BIIB******************
+Buy
+------------------------------------------------------
+Downloaded -BLK data
+Started Learning for - BLK
+Learner Return 1643.82761888
+**********Tips for BLK******************
+Hold
+------------------------------------------------------
+Downloaded -HRB data
+Started Learning for - HRB
+Learner Return 155.272114616
+**********Tips for HRB******************
+Hold
+------------------------------------------------------
+Downloaded -BA data
+Started Learning for - BA
+Learner Return 1458.33742517
+**********Tips for BA******************
+Hold
+------------------------------------------------------
+Downloaded -BKNG data
+Started Learning for - BKNG
+Learner Return 7859.41608283
+**********Tips for BKNG******************
+Buy
+------------------------------------------------------
+Downloaded -BWA data
+Started Learning for - BWA
+Learner Return 279.24549624
+**********Tips for BWA******************
+Hold
+------------------------------------------------------
+Downloaded -BXP data
+Started Learning for - BXP
+Learner Return 231.603449676
+**********Tips for BXP******************
+Hold
+------------------------------------------------------
+Downloaded -BSX data
+Started Learning for - BSX
+Learner Return 127.164703523
+**********Tips for BSX******************
+Hold
+------------------------------------------------------
+Downloaded -BHF data
+Started Learning for - BHF
+BHF failed
+Traceback (most recent call last):
+  File "TradingTips.py", line 32, in <module>
+    st.addEvidence(sym, sd=start_day, ed=end_day - timedelta(days=10), sv=1000)
+  File "/home/martin/PycharmProjects/personal_trading/strategy_learner/StrategyLearner.py", line 101, in addEvidence
+    action = self.q_learner.querysetstate(state)
+  File "/home/martin/PycharmProjects/personal_trading/strategy_learner/QLearner.py", line 76, in querysetstate
+    res = np.where(self.q[s] == np.amax(self.q[s]))[0]
+IndexError: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices
+Downloaded -BMY data
+Started Learning for - BMY
+Learner Return 307.580463965
+**********Tips for BMY******************
+Hold
+------------------------------------------------------
+Downloaded -AVGO data
+Started Learning for - AVGO
+Learner Return -24248.1758049
+**********Tips for AVGO******************
+Hold
+------------------------------------------------------
+BF.B failed
+Traceback (most recent call last):
+  File "TradingTips.py", line 29, in <module>
+    pull_historical_data(sym, start_day - timedelta(days=50), end_day)
+  File "TradingTips.py", line 10, in pull_historical_data
+    stoc_data = pdr.get_data_yahoo(symbols=ticker_symbol, start=sd, end=ed)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas_datareader/data.py", line 70, in get_data_yahoo
+    return YahooDailyReader(*args, **kwargs).read()
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas_datareader/base.py", line 210, in read
+    params=self._get_params(self.symbols))
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas_datareader/yahoo/daily.py", line 142, in _read_one_data
+    to_datetime(prices['Date'], unit='s').dt.date)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/frame.py", line 1964, in __getitem__
+    return self._getitem_column(key)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/frame.py", line 1971, in _getitem_column
+    return self._get_item_cache(key)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/generic.py", line 1645, in _get_item_cache
+    values = self._data.get(item)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/internals.py", line 3590, in get
+    loc = self.items.get_loc(item)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/indexes/base.py", line 2444, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 132, in pandas._libs.index.IndexEngine.get_loc (pandas/_libs/index.c:5280)
+  File "pandas/_libs/index.pyx", line 154, in pandas._libs.index.IndexEngine.get_loc (pandas/_libs/index.c:5126)
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1210, in pandas._libs.hashtable.PyObjectHashTable.get_item (pandas/_libs/hashtable.c:20523)
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1218, in pandas._libs.hashtable.PyObjectHashTable.get_item (pandas/_libs/hashtable.c:20477)
+KeyError: 'Date'
+Downloaded -CHRW data
+Started Learning for - CHRW
+Learner Return 463.378148938
+**********Tips for CHRW******************
+Hold
+------------------------------------------------------
+Downloaded -CA data
+Started Learning for - CA
+CA failed
+Traceback (most recent call last):
+  File "TradingTips.py", line 32, in <module>
+    st.addEvidence(sym, sd=start_day, ed=end_day - timedelta(days=10), sv=1000)
+  File "/home/martin/PycharmProjects/personal_trading/strategy_learner/StrategyLearner.py", line 101, in addEvidence
+    action = self.q_learner.querysetstate(state)
+  File "/home/martin/PycharmProjects/personal_trading/strategy_learner/QLearner.py", line 76, in querysetstate
+    res = np.where(self.q[s] == np.amax(self.q[s]))[0]
+IndexError: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices
+Downloaded -COG data
+Started Learning for - COG
+Learner Return 132.221399049
+**********Tips for COG******************
+Hold
+------------------------------------------------------
+Downloaded -CDNS data
+Started Learning for - CDNS
+Learner Return 243.182805078
+**********Tips for CDNS******************
+Hold
+------------------------------------------------------
+Downloaded -CPB data
+Started Learning for - CPB
+Learner Return 189.324968891
+**********Tips for CPB******************
+Hold
+------------------------------------------------------
+Downloaded -COF data
+Started Learning for - COF
+Learner Return 262.048880978
+**********Tips for COF******************
+Hold
+------------------------------------------------------
+Downloaded -CAH data
+Started Learning for - CAH
+Learner Return 270.622854384
+**********Tips for CAH******************
+Hold
+------------------------------------------------------
+Downloaded -KMX data
+Started Learning for - KMX
+Learner Return 239.133344071
+**********Tips for KMX******************
+Buy
+------------------------------------------------------
+Downloaded -CCL data
+Started Learning for - CCL
+Learner Return 182.523339014
+**********Tips for CCL******************
+Hold
+------------------------------------------------------
+Downloaded -CAT data
+Started Learning for - CAT
+Learner Return 1077.40591537
+**********Tips for CAT******************
+Hold
+------------------------------------------------------
+Downloaded -CBOE data
+Started Learning for - CBOE
+Learner Return 586.208926591
+**********Tips for CBOE******************
+Hold
+------------------------------------------------------
+Downloaded -CBRE data
+Started Learning for - CBRE
+Learner Return 159.445787887
+**********Tips for CBRE******************
+Hold
+------------------------------------------------------
+Downloaded -CBS data
+Started Learning for - CBS
+Learner Return 186.051254468
+**********Tips for CBS******************
+Hold
+------------------------------------------------------
+Downloaded -CELG data
+Started Learning for - CELG
+Learner Return 1050.40643683
+**********Tips for CELG******************
+Sell
+------------------------------------------------------
+Downloaded -CNC data
+Started Learning for - CNC
+Learner Return 288.049265786
+**********Tips for CNC******************
+Buy
+------------------------------------------------------
+Downloaded -CNP data
+Started Learning for - CNP
+Learner Return 72.2103613439
+**********Tips for CNP******************
+Hold
+------------------------------------------------------
+Downloaded -CTL data
+Started Learning for - CTL
+Learner Return 90.3849986582
+**********Tips for CTL******************
+Hold
+------------------------------------------------------
+Downloaded -CERN data
+Started Learning for - CERN
+Learner Return 365.312473077
+**********Tips for CERN******************
+Hold
+------------------------------------------------------
+Downloaded -CF data
+Started Learning for - CF
+Learner Return 220.244978831
+**********Tips for CF******************
+Hold
+------------------------------------------------------
+Downloaded -SCHW data
+Started Learning for - SCHW
+Learner Return 250.999160187
+**********Tips for SCHW******************
+Sell
+------------------------------------------------------
+Downloaded -CHTR data
+Started Learning for - CHTR
+Learner Return -2671.56256657
+**********Tips for CHTR******************
+Sell
+------------------------------------------------------
+Downloaded -CVX data
+Started Learning for - CVX
+Learner Return 356.937248023
+**********Tips for CVX******************
+Hold
+------------------------------------------------------
+Downloaded -CMG data
+Started Learning for - CMG
+Learner Return 2428.40180938
+**********Tips for CMG******************
+Hold
+------------------------------------------------------
+Downloaded -CB data
+Started Learning for - CB
+Learner Return 371.152229776
+**********Tips for CB******************
+Hold
+------------------------------------------------------
+Downloaded -CHD data
+Started Learning for - CHD
+Learner Return 192.605403481
+**********Tips for CHD******************
+Hold
+------------------------------------------------------
+Downloaded -CI data
+Started Learning for - CI
+Learner Return 3955.47617526
+**********Tips for CI******************
+Hold
+------------------------------------------------------
+Downloaded -XEC data
+Started Learning for - XEC
+Learner Return 308.383416033
+**********Tips for XEC******************
+Hold
+------------------------------------------------------
+Downloaded -CINF data
+Started Learning for - CINF
+Learner Return 182.614777906
+**********Tips for CINF******************
+Hold
+------------------------------------------------------
+Downloaded -CTAS data
+Started Learning for - CTAS
+Learner Return 1336.79640082
+**********Tips for CTAS******************
+Buy
+------------------------------------------------------
+Downloaded -CSCO data
+Started Learning for - CSCO
+Learner Return 142.76940636
+**********Tips for CSCO******************
+Hold
+------------------------------------------------------
+Downloaded -C data
+Started Learning for - C
+Learner Return 275.782096575
+**********Tips for C******************
+Hold
+------------------------------------------------------
+Downloaded -CFG data
+Started Learning for - CFG
+Learner Return 163.777286052
+**********Tips for CFG******************
+Hold
+------------------------------------------------------
+Downloaded -CTXS data
+Started Learning for - CTXS
+Learner Return 280.496072807
+**********Tips for CTXS******************
+Hold
+------------------------------------------------------
+Downloaded -CME data
+Started Learning for - CME
+Learner Return 499.952725425
+**********Tips for CME******************
+Buy
+------------------------------------------------------
+Downloaded -CMS data
+Started Learning for - CMS
+Learner Return 130.135812493
+**********Tips for CMS******************
+Hold
+------------------------------------------------------
+Downloaded -KO data
+Started Learning for - KO
+Learner Return 103.741430892
+**********Tips for KO******************
+Sell
+------------------------------------------------------
+Downloaded -CTSH data
+Started Learning for - CTSH
+Learner Return 376.057637119
+**********Tips for CTSH******************
+Hold
+------------------------------------------------------
+Downloaded -CL data
+Started Learning for - CL
+Learner Return 197.786270562
+**********Tips for CL******************
+Sell
+------------------------------------------------------
+Downloaded -CMCSA data
+Started Learning for - CMCSA
+Learner Return 132.344018226
+**********Tips for CMCSA******************
+Hold
+------------------------------------------------------
+Downloaded -CMA data
+Started Learning for - CMA
+Learner Return 221.852334217
+**********Tips for CMA******************
+Hold
+------------------------------------------------------
+Downloaded -CAG data
+Started Learning for - CAG
+Learner Return 131.004875583
+**********Tips for CAG******************
+Hold
+------------------------------------------------------
+Downloaded -CXO data
+Started Learning for - CXO
+Learner Return 773.077361746
+**********Tips for CXO******************
+Hold
+------------------------------------------------------
+Downloaded -COP data
+Started Learning for - COP
+Learner Return 267.343734398
+**********Tips for COP******************
+Sell
+------------------------------------------------------
+Downloaded -ED data
+Started Learning for - ED
+Learner Return 159.051330208
+**********Tips for ED******************
+Hold
+------------------------------------------------------
+Downloaded -STZ data
+Started Learning for - STZ
+Learner Return 435.252161321
+**********Tips for STZ******************
+Buy
+------------------------------------------------------
+Downloaded -GLW data
+Started Learning for - GLW
+Learner Return 145.009936687
+**********Tips for GLW******************
+Buy
+------------------------------------------------------
+Downloaded -COST data
+Started Learning for - COST
+Learner Return 366.001878951
+**********Tips for COST******************
+Hold
+------------------------------------------------------
+Downloaded -COTY data
+Started Learning for - COTY
+Learner Return 83.3670308961
+**********Tips for COTY******************
+Hold
+------------------------------------------------------
+Downloaded -CCI data
+Started Learning for - CCI
+Learner Return 232.773675991
+**********Tips for CCI******************
+Hold
+------------------------------------------------------
+Downloaded -CSRA data
+Started Learning for - CSRA
+CSRA failed
+Traceback (most recent call last):
+  File "TradingTips.py", line 32, in <module>
+    st.addEvidence(sym, sd=start_day, ed=end_day - timedelta(days=10), sv=1000)
+  File "/home/martin/PycharmProjects/personal_trading/strategy_learner/StrategyLearner.py", line 101, in addEvidence
+    action = self.q_learner.querysetstate(state)
+  File "/home/martin/PycharmProjects/personal_trading/strategy_learner/QLearner.py", line 76, in querysetstate
+    res = np.where(self.q[s] == np.amax(self.q[s]))[0]
+IndexError: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices
+Downloaded -CSX data
+Started Learning for - CSX
+Learner Return 197.033350848
+**********Tips for CSX******************
+Buy
+------------------------------------------------------
+Downloaded -CMI data
+Started Learning for - CMI
+Learner Return 2200.30968662
+**********Tips for CMI******************
+Hold
+------------------------------------------------------
+Downloaded -CVS data
+Started Learning for - CVS
+Learner Return 228.983519458
+**********Tips for CVS******************
+Hold
+------------------------------------------------------
+Downloaded -DHI data
+Started Learning for - DHI
+Learner Return 224.457859383
+**********Tips for DHI******************
+Hold
+------------------------------------------------------
+Downloaded -DHR data
+Started Learning for - DHR
+Learner Return 213.17529763
+**********Tips for DHR******************
+Hold
+------------------------------------------------------
+Downloaded -DRI data
+Started Learning for - DRI
+Learner Return 632.546184359
+**********Tips for DRI******************
+Hold
+------------------------------------------------------
+Downloaded -DVA data
+Started Learning for - DVA
+Learner Return 442.5187324
+**********Tips for DVA******************
+Hold
+------------------------------------------------------
+Downloaded -DE data
+Started Learning for - DE
+Learner Return 1491.05854416
+**********Tips for DE******************
+Hold
+------------------------------------------------------
+Downloaded -DAL data
+Started Learning for - DAL
+Learner Return 280.346105996
+**********Tips for DAL******************
+Hold
+------------------------------------------------------
+Downloaded -XRAY data
+Started Learning for - XRAY
+Learner Return 164.022083185
+**********Tips for XRAY******************
+Sell
+------------------------------------------------------
+Downloaded -DVN data
+Started Learning for - DVN
+Learner Return 176.681275603
+**********Tips for DVN******************
+Sell
+------------------------------------------------------
+Downloaded -DLR data
+Started Learning for - DLR
+Learner Return 885.266727365
+**********Tips for DLR******************
+Hold
+------------------------------------------------------
+Downloaded -DFS data
+Started Learning for - DFS
+Learner Return 377.17572406
+**********Tips for DFS******************
+Hold
+------------------------------------------------------
+Downloaded -DISCA data
+Started Learning for - DISCA
+Learner Return 183.047989225
+**********Tips for DISCA******************
+Hold
+------------------------------------------------------
+Downloaded -DISCK data
+Started Learning for - DISCK
+Learner Return 127.511988876
+**********Tips for DISCK******************
+Hold
+------------------------------------------------------
+Downloaded -DISH data
+Started Learning for - DISH
+Learner Return 222.709179897
+**********Tips for DISH******************
+Buy
+------------------------------------------------------
+Downloaded -DG data
+Started Learning for - DG
+Learner Return 283.050360156
+**********Tips for DG******************
+Buy
+------------------------------------------------------
+Downloaded -DLTR data
+Started Learning for - DLTR
+Learner Return 681.111724194
+**********Tips for DLTR******************
+Hold
+------------------------------------------------------
+Downloaded -D data
+Started Learning for - D
+Learner Return 196.558718032
+**********Tips for D******************
+Hold
+------------------------------------------------------
+Downloaded -DOV data
+Started Learning for - DOV
+Learner Return 423.326674723
+**********Tips for DOV******************
+Buy
+------------------------------------------------------
+Downloaded -DWDP data
+Started Learning for - DWDP
+DWDP failed
+Traceback (most recent call last):
+  File "TradingTips.py", line 32, in <module>
+    st.addEvidence(sym, sd=start_day, ed=end_day - timedelta(days=10), sv=1000)
+  File "/home/martin/PycharmProjects/personal_trading/strategy_learner/StrategyLearner.py", line 101, in addEvidence
+    action = self.q_learner.querysetstate(state)
+  File "/home/martin/PycharmProjects/personal_trading/strategy_learner/QLearner.py", line 76, in querysetstate
+    res = np.where(self.q[s] == np.amax(self.q[s]))[0]
+IndexError: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices
+DPS failed
+Traceback (most recent call last):
+  File "TradingTips.py", line 29, in <module>
+    pull_historical_data(sym, start_day - timedelta(days=50), end_day)
+  File "TradingTips.py", line 10, in pull_historical_data
+    stoc_data = pdr.get_data_yahoo(symbols=ticker_symbol, start=sd, end=ed)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas_datareader/data.py", line 70, in get_data_yahoo
+    return YahooDailyReader(*args, **kwargs).read()
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas_datareader/base.py", line 210, in read
+    params=self._get_params(self.symbols))
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas_datareader/yahoo/daily.py", line 142, in _read_one_data
+    to_datetime(prices['Date'], unit='s').dt.date)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/frame.py", line 1964, in __getitem__
+    return self._getitem_column(key)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/frame.py", line 1971, in _getitem_column
+    return self._get_item_cache(key)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/generic.py", line 1645, in _get_item_cache
+    values = self._data.get(item)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/internals.py", line 3590, in get
+    loc = self.items.get_loc(item)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/indexes/base.py", line 2444, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 132, in pandas._libs.index.IndexEngine.get_loc (pandas/_libs/index.c:5280)
+  File "pandas/_libs/index.pyx", line 154, in pandas._libs.index.IndexEngine.get_loc (pandas/_libs/index.c:5126)
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1210, in pandas._libs.hashtable.PyObjectHashTable.get_item (pandas/_libs/hashtable.c:20523)
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1218, in pandas._libs.hashtable.PyObjectHashTable.get_item (pandas/_libs/hashtable.c:20477)
+KeyError: 'Date'
+Downloaded -DTE data
+Started Learning for - DTE
+Learner Return 280.174912869
+**********Tips for DTE******************
+Hold
+------------------------------------------------------
+Downloaded -DUK data
+Started Learning for - DUK
+Learner Return 215.752056313
+**********Tips for DUK******************
+Hold
+------------------------------------------------------
+Downloaded -DRE data
+Started Learning for - DRE
+Learner Return 77.7221727366
+**********Tips for DRE******************
+Hold
+------------------------------------------------------
+Downloaded -DXC data
+Started Learning for - DXC
+Learner Return 420.368927878
+**********Tips for DXC******************
+Hold
+------------------------------------------------------
+Downloaded -ETFC data
+Started Learning for - ETFC
+Learner Return 197.232939468
+**********Tips for ETFC******************
+Buy
+------------------------------------------------------
+Downloaded -EMN data
+Started Learning for - EMN
+Learner Return 314.056312717
+**********Tips for EMN******************
+Buy
+------------------------------------------------------
+Downloaded -ETN data
+Started Learning for - ETN
+Learner Return 396.82164255
+**********Tips for ETN******************
+Buy
+------------------------------------------------------
+Downloaded -EBAY data
+Started Learning for - EBAY
+Learner Return 156.749589631
+**********Tips for EBAY******************
+Hold
+------------------------------------------------------
+Downloaded -ECL data
+Started Learning for - ECL
+Learner Return 1012.58690092
+**********Tips for ECL******************
+Hold
+------------------------------------------------------
+Downloaded -EIX data
+Started Learning for - EIX
+Learner Return 197.328017461
+**********Tips for EIX******************
+Hold
+------------------------------------------------------
+Downloaded -EW data
+Started Learning for - EW
+Learner Return 642.871703941
+**********Tips for EW******************
+Hold
+------------------------------------------------------
+Downloaded -EA data
+Started Learning for - EA
+Learner Return 1137.18291896
+**********Tips for EA******************
+Sell
+------------------------------------------------------
+Downloaded -EMR data
+Started Learning for - EMR
+Learner Return 322.413368792
+**********Tips for EMR******************
+Hold
+------------------------------------------------------
+Downloaded -ETR data
+Started Learning for - ETR
+Learner Return 229.794156763
+**********Tips for ETR******************
+Hold
+------------------------------------------------------
+Downloaded -EVHC data
+Started Learning for - EVHC
+EVHC failed
+Traceback (most recent call last):
+  File "TradingTips.py", line 32, in <module>
+    st.addEvidence(sym, sd=start_day, ed=end_day - timedelta(days=10), sv=1000)
+  File "/home/martin/PycharmProjects/personal_trading/strategy_learner/StrategyLearner.py", line 101, in addEvidence
+    action = self.q_learner.querysetstate(state)
+  File "/home/martin/PycharmProjects/personal_trading/strategy_learner/QLearner.py", line 76, in querysetstate
+    res = np.where(self.q[s] == np.amax(self.q[s]))[0]
+IndexError: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices
+Downloaded -EOG data
+Started Learning for - EOG
+Learner Return 507.768704906
+**********Tips for EOG******************
+Sell
+------------------------------------------------------
+Downloaded -EQT data
+Started Learning for - EQT
+Learner Return 160.333994464
+**********Tips for EQT******************
+Hold
+------------------------------------------------------
+Downloaded -EFX data
+Started Learning for - EFX
+Learner Return 420.780716257
+**********Tips for EFX******************
+Buy
+------------------------------------------------------
+Downloaded -EQIX data
+Started Learning for - EQIX
+Learner Return 517.183896102
+**********Tips for EQIX******************
+Hold
+------------------------------------------------------
+Downloaded -EQR data
+Started Learning for - EQR
+Learner Return 174.978469581
+**********Tips for EQR******************
+Hold
+------------------------------------------------------
+Downloaded -ESS data
+Started Learning for - ESS
+Learner Return 725.905099408
+**********Tips for ESS******************
+Hold
+------------------------------------------------------
+Downloaded -EL data
+Started Learning for - EL
+Learner Return 889.693810283
+**********Tips for EL******************
+Hold
+------------------------------------------------------
+Downloaded -RE data
+Started Learning for - RE
+Learner Return 377.214211521
+**********Tips for RE******************
+Buy
+------------------------------------------------------
+Downloaded -ES data
+Started Learning for - ES
+Learner Return 129.812365618
+**********Tips for ES******************
+Hold
+------------------------------------------------------
+Downloaded -EXC data
+Started Learning for - EXC
+Learner Return 113.998507107
+**********Tips for EXC******************
+Hold
+------------------------------------------------------
+Downloaded -EXPE data
+Started Learning for - EXPE
+Learner Return 550.048988272
+**********Tips for EXPE******************
+Hold
+------------------------------------------------------
+Downloaded -EXPD data
+Started Learning for - EXPD
+Learner Return 232.829001883
+**********Tips for EXPD******************
+Buy
+------------------------------------------------------
+Downloaded -ESRX data
+Started Learning for - ESRX
+ESRX failed
+Traceback (most recent call last):
+  File "TradingTips.py", line 32, in <module>
+    st.addEvidence(sym, sd=start_day, ed=end_day - timedelta(days=10), sv=1000)
+  File "/home/martin/PycharmProjects/personal_trading/strategy_learner/StrategyLearner.py", line 101, in addEvidence
+    action = self.q_learner.querysetstate(state)
+  File "/home/martin/PycharmProjects/personal_trading/strategy_learner/QLearner.py", line 76, in querysetstate
+    res = np.where(self.q[s] == np.amax(self.q[s]))[0]
+IndexError: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices
+Downloaded -EXR data
+Started Learning for - EXR
+Learner Return 464.346541068
+**********Tips for EXR******************
+Hold
+------------------------------------------------------
+Downloaded -XOM data
+Started Learning for - XOM
+Learner Return 227.731061133
+**********Tips for XOM******************
+Sell
+------------------------------------------------------
+Downloaded -FFIV data
+Started Learning for - FFIV
+Learner Return 1897.68466035
+**********Tips for FFIV******************
+Hold
+------------------------------------------------------
+Downloaded -FB data
+Started Learning for - FB
+Learner Return 3470.34523276
+**********Tips for FB******************
+Hold
+------------------------------------------------------
+Downloaded -FAST data
+Started Learning for - FAST
+Learner Return 104.762014965
+**********Tips for FAST******************
+Hold
+------------------------------------------------------
+Downloaded -FRT data
+Started Learning for - FRT
+Learner Return 1039.51259704
+**********Tips for FRT******************
+Buy
+------------------------------------------------------
+Downloaded -FDX data
+Started Learning for - FDX
+Learner Return 457.905391931
+**********Tips for FDX******************
+Hold
+------------------------------------------------------
+Downloaded -FIS data
+Started Learning for - FIS
+Learner Return 520.504070485
+**********Tips for FIS******************
+Hold
+------------------------------------------------------
+Downloaded -FITB data
+Started Learning for - FITB
+Learner Return 103.366457938
+**********Tips for FITB******************
+Hold
+------------------------------------------------------
+Downloaded -FE data
+Started Learning for - FE
+Learner Return 93.4720715862
+**********Tips for FE******************
+Buy
+------------------------------------------------------
+Downloaded -FISV data
+Started Learning for - FISV
+Learner Return 200.723086351
+**********Tips for FISV******************
+Hold
+------------------------------------------------------
+Downloaded -FLIR data
+Started Learning for - FLIR
+Learner Return 234.674667667
+**********Tips for FLIR******************
+Hold
+------------------------------------------------------
+Downloaded -FLS data
+Started Learning for - FLS
+Learner Return 302.869812841
+**********Tips for FLS******************
+Sell
+------------------------------------------------------
+Downloaded -FLR data
+Started Learning for - FLR
+Learner Return 296.936955152
+**********Tips for FLR******************
+Hold
+------------------------------------------------------
+Downloaded -FMC data
+Started Learning for - FMC
+Learner Return 321.924591503
+**********Tips for FMC******************
+Buy
+------------------------------------------------------
+Downloaded -FL data
+Started Learning for - FL
+Learner Return 235.958355724
+**********Tips for FL******************
+Hold
+------------------------------------------------------
+Downloaded -F data
+Started Learning for - F
+Learner Return 41.7110104097
+**********Tips for F******************
+Sell
+------------------------------------------------------
+Downloaded -FTV data
+Started Learning for - FTV
+Learner Return 237.996654359
+**********Tips for FTV******************
+Buy
+------------------------------------------------------
+Downloaded -FBHS data
+Started Learning for - FBHS
+Learner Return 320.383433194
+**********Tips for FBHS******************
+Hold
+------------------------------------------------------
+Downloaded -BEN data
+Started Learning for - BEN
+Learner Return 162.704766613
+**********Tips for BEN******************
+Buy
+------------------------------------------------------
+Downloaded -FCX data
+Started Learning for - FCX
+Learner Return 109.861482877
+**********Tips for FCX******************
+Hold
+------------------------------------------------------
+Downloaded -GPS data
+Started Learning for - GPS
+Learner Return 136.646877232
+**********Tips for GPS******************
+Hold
+------------------------------------------------------
+Downloaded -GRMN data
+Started Learning for - GRMN
+Learner Return 261.197605836
+**********Tips for GRMN******************
+Hold
+------------------------------------------------------
+Downloaded -IT data
+Started Learning for - IT
+Learner Return 302.325525116
+**********Tips for IT******************
+Buy
+------------------------------------------------------
+Downloaded -GD data
+Started Learning for - GD
+Learner Return 333.568417545
+**********Tips for GD******************
+Hold
+------------------------------------------------------
+Downloaded -GE data
+Started Learning for - GE
+Learner Return 75.1645776521
+**********Tips for GE******************
+Hold
+------------------------------------------------------
+GGP failed
+Traceback (most recent call last):
+  File "TradingTips.py", line 29, in <module>
+    pull_historical_data(sym, start_day - timedelta(days=50), end_day)
+  File "TradingTips.py", line 10, in pull_historical_data
+    stoc_data = pdr.get_data_yahoo(symbols=ticker_symbol, start=sd, end=ed)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas_datareader/data.py", line 70, in get_data_yahoo
+    return YahooDailyReader(*args, **kwargs).read()
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas_datareader/base.py", line 210, in read
+    params=self._get_params(self.symbols))
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas_datareader/yahoo/daily.py", line 142, in _read_one_data
+    to_datetime(prices['Date'], unit='s').dt.date)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/frame.py", line 1964, in __getitem__
+    return self._getitem_column(key)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/frame.py", line 1971, in _getitem_column
+    return self._get_item_cache(key)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/generic.py", line 1645, in _get_item_cache
+    values = self._data.get(item)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/internals.py", line 3590, in get
+    loc = self.items.get_loc(item)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/indexes/base.py", line 2444, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 132, in pandas._libs.index.IndexEngine.get_loc (pandas/_libs/index.c:5280)
+  File "pandas/_libs/index.pyx", line 154, in pandas._libs.index.IndexEngine.get_loc (pandas/_libs/index.c:5126)
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1210, in pandas._libs.hashtable.PyObjectHashTable.get_item (pandas/_libs/hashtable.c:20523)
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1218, in pandas._libs.hashtable.PyObjectHashTable.get_item (pandas/_libs/hashtable.c:20477)
+KeyError: 'Date'
+Downloaded -GIS data
+Started Learning for - GIS
+Learner Return 180.975643768
+**********Tips for GIS******************
+Hold
+------------------------------------------------------
+Downloaded -GM data
+Started Learning for - GM
+Learner Return 183.111943077
+**********Tips for GM******************
+Hold
+------------------------------------------------------
+Downloaded -GPC data
+Started Learning for - GPC
+Learner Return 519.373816003
+**********Tips for GPC******************
+Hold
+------------------------------------------------------
+Downloaded -GILD data
+Started Learning for - GILD
+Learner Return 287.285088234
+**********Tips for GILD******************
+Hold
+------------------------------------------------------
+Downloaded -GPN data
+Started Learning for - GPN
+Learner Return 744.816959795
+**********Tips for GPN******************
+Sell
+------------------------------------------------------
+Downloaded -GS data
+Started Learning for - GS
+Learner Return 901.633025596
+**********Tips for GS******************
+Hold
+------------------------------------------------------
+Downloaded -GT data
+Started Learning for - GT
+Learner Return 145.403606358
+**********Tips for GT******************
+Hold
+------------------------------------------------------
+Downloaded -GWW data
+Started Learning for - GWW
+Learner Return 1302.29634415
+**********Tips for GWW******************
+Hold
+------------------------------------------------------
+Downloaded -HAL data
+Started Learning for - HAL
+Learner Return 207.794206988
+**********Tips for HAL******************
+Hold
+------------------------------------------------------
+Downloaded -HBI data
+Started Learning for - HBI
+Learner Return 117.344526628
+**********Tips for HBI******************
+Buy
+------------------------------------------------------
+Downloaded -HOG data
+Started Learning for - HOG
+Learner Return 273.918526877
+**********Tips for HOG******************
+Sell
+------------------------------------------------------
+Downloaded -HRS data
+Started Learning for - HRS
+Learner Return 1217.27561903
+**********Tips for HRS******************
+Hold
+------------------------------------------------------
+Downloaded -HIG data
+Started Learning for - HIG
+Learner Return 195.830610325
+**********Tips for HIG******************
+Hold
+------------------------------------------------------
+Downloaded -HAS data
+Started Learning for - HAS
+Learner Return 720.683320303
+**********Tips for HAS******************
+Hold
+------------------------------------------------------
+Downloaded -HCA data
+Started Learning for - HCA
+Learner Return 793.602655538
+**********Tips for HCA******************
+Hold
+------------------------------------------------------
+Downloaded -HCP data
+Started Learning for - HCP
+Learner Return 95.7704635228
+**********Tips for HCP******************
+Hold
+------------------------------------------------------
+Downloaded -HP data
+Started Learning for - HP
+Learner Return 327.329160462
+**********Tips for HP******************
+Buy
+------------------------------------------------------
+Downloaded -HSIC data
+Started Learning for - HSIC
+Learner Return 417.384564851
+**********Tips for HSIC******************
+Buy
+------------------------------------------------------
+Downloaded -HES data
+Started Learning for - HES
+Learner Return 342.333746929
+**********Tips for HES******************
+Sell
+------------------------------------------------------
+Downloaded -HPE data
+Started Learning for - HPE
+Learner Return 74.6722392677
+**********Tips for HPE******************
+Sell
+------------------------------------------------------
+Downloaded -HLT data
+Started Learning for - HLT
+Learner Return 378.671048057
+**********Tips for HLT******************
+Hold
+------------------------------------------------------
+Downloaded -HOLX data
+Started Learning for - HOLX
+Learner Return 152.587780819
+**********Tips for HOLX******************
+Hold
+------------------------------------------------------
+Downloaded -HD data
+Started Learning for - HD
+Learner Return 297.971211219
+**********Tips for HD******************
+Buy
+------------------------------------------------------
+Downloaded -HON data
+Started Learning for - HON
+Learner Return 1053.59082381
+**********Tips for HON******************
+Hold
+------------------------------------------------------
+Downloaded -HRL data
+Started Learning for - HRL
+Learner Return 134.263859977
+**********Tips for HRL******************
+Sell
+------------------------------------------------------
+Downloaded -HST data
+Started Learning for - HST
+Learner Return 63.2155254693
+**********Tips for HST******************
+Hold
+------------------------------------------------------
+Downloaded -HPQ data
+Started Learning for - HPQ
+Learner Return 86.1349447641
+**********Tips for HPQ******************
+Hold
+------------------------------------------------------
+Downloaded -HUM data
+Started Learning for - HUM
+Learner Return -8670.26215279
+**********Tips for HUM******************
+Sell
+------------------------------------------------------
+Downloaded -HBAN data
+Started Learning for - HBAN
+Learner Return 55.7954928901
+**********Tips for HBAN******************
+Sell
+------------------------------------------------------
+Downloaded -HII data
+Started Learning for - HII
+Learner Return 17279.3316622
+**********Tips for HII******************
+Hold
+------------------------------------------------------
+Downloaded -IDXX data
+Started Learning for - IDXX
+Learner Return 4646.952619
+**********Tips for IDXX******************
+Hold
+------------------------------------------------------
+Downloaded -INFO data
+Started Learning for - INFO
+Learner Return 127.697571321
+**********Tips for INFO******************
+Sell
+------------------------------------------------------
+Downloaded -ITW data
+Started Learning for - ITW
+Learner Return 314.788624504
+**********Tips for ITW******************
+Sell
+------------------------------------------------------
+Downloaded -ILMN data
+Started Learning for - ILMN
+Learner Return 787.842392682
+**********Tips for ILMN******************
+Hold
+------------------------------------------------------
+Downloaded -INCY data
+Started Learning for - INCY
+Learner Return 1472.62698848
+**********Tips for INCY******************
+Hold
+------------------------------------------------------
+Downloaded -IR data
+Started Learning for - IR
+Learner Return 336.699470672
+**********Tips for IR******************
+Hold
+------------------------------------------------------
+Downloaded -INTC data
+Started Learning for - INTC
+Learner Return 185.372162206
+**********Tips for INTC******************
+Hold
+------------------------------------------------------
+Downloaded -ICE data
+Started Learning for - ICE
+Learner Return 167.155509493
+**********Tips for ICE******************
+Buy
+------------------------------------------------------
+Downloaded -IBM data
+Started Learning for - IBM
+Learner Return 451.862652441
+**********Tips for IBM******************
+Hold
+------------------------------------------------------
+Downloaded -IP data
+Started Learning for - IP
+Learner Return 199.502459337
+**********Tips for IP******************
+Sell
+------------------------------------------------------
+Downloaded -IPG data
+Started Learning for - IPG
+Learner Return 112.613888896
+**********Tips for IPG******************
+Hold
+------------------------------------------------------
+Downloaded -IFF data
+Started Learning for - IFF
+Learner Return 451.100195989
+**********Tips for IFF******************
+Hold
+------------------------------------------------------
+Downloaded -INTU data
+Started Learning for - INTU
+Learner Return 807.139020994
+**********Tips for INTU******************
+Sell
+------------------------------------------------------
+Downloaded -ISRG data
+Started Learning for - ISRG
+Learner Return -5704.951464
+**********Tips for ISRG******************
+Hold
+------------------------------------------------------
+Downloaded -IVZ data
+Started Learning for - IVZ
+Learner Return 95.4177036399
+**********Tips for IVZ******************
+Hold
+------------------------------------------------------
+Downloaded -IPGP data
+Started Learning for - IPGP
+Learner Return 1219.80711968
+**********Tips for IPGP******************
+Hold
+------------------------------------------------------
+Downloaded -IQV data
+Started Learning for - IQV
+Learner Return 744.949872452
+**********Tips for IQV******************
+Buy
+------------------------------------------------------
+Downloaded -IRM data
+Started Learning for - IRM
+Learner Return 138.660701105
+**********Tips for IRM******************
+Hold
+------------------------------------------------------
+Downloaded -JBHT data
+Started Learning for - JBHT
+Learner Return 318.226289672
+**********Tips for JBHT******************
+Hold
+------------------------------------------------------
+Downloaded -JEC data
+Started Learning for - JEC
+Learner Return 363.429435818
+**********Tips for JEC******************
+Hold
+------------------------------------------------------
+Downloaded -SJM data
+Started Learning for - SJM
+Learner Return 449.502908731
+**********Tips for SJM******************
+Sell
+------------------------------------------------------
+Downloaded -JNJ data
+Started Learning for - JNJ
+Learner Return 233.819836903
+**********Tips for JNJ******************
+Buy
+------------------------------------------------------
+Downloaded -JCI data
+Started Learning for - JCI
+Learner Return 147.752550277
+**********Tips for JCI******************
+Buy
+------------------------------------------------------
+Downloaded -JPM data
+Started Learning for - JPM
+Learner Return 363.536569567
+**********Tips for JPM******************
+Hold
+------------------------------------------------------
+Downloaded -JNPR data
+Started Learning for - JNPR
+Learner Return 129.078071342
+**********Tips for JNPR******************
+Hold
+------------------------------------------------------
+Downloaded -KSU data
+Started Learning for - KSU
+Learner Return 470.006570175
+**********Tips for KSU******************
+Buy
+------------------------------------------------------
+Downloaded -K data
+Started Learning for - K
+Learner Return 219.7980661
+**********Tips for K******************
+Hold
+------------------------------------------------------
+Downloaded -KEY data
+Started Learning for - KEY
+Learner Return 81.9937576111
+**********Tips for KEY******************
+Sell
+------------------------------------------------------
+Downloaded -KMB data
+Started Learning for - KMB
+Learner Return 378.952000838
+**********Tips for KMB******************
+Hold
+------------------------------------------------------
+Downloaded -KIM data
+Started Learning for - KIM
+Learner Return 72.7038720888
+**********Tips for KIM******************
+Hold
+------------------------------------------------------
+Downloaded -KMI data
+Started Learning for - KMI
+Learner Return 57.8957579405
+**********Tips for KMI******************
+Hold
+------------------------------------------------------
+Downloaded -KLAC data
+Started Learning for - KLAC
+Learner Return 1095.13135024
+**********Tips for KLAC******************
+Hold
+------------------------------------------------------
+Downloaded -KSS data
+Started Learning for - KSS
+Learner Return 458.400867229
+**********Tips for KSS******************
+Hold
+------------------------------------------------------
+Downloaded -KHC data
+Started Learning for - KHC
+Learner Return 333.677257319
+**********Tips for KHC******************
+Buy
+------------------------------------------------------
+Downloaded -KR data
+Started Learning for - KR
+Learner Return 135.626118164
+**********Tips for KR******************
+Sell
+------------------------------------------------------
+Downloaded -LB data
+Started Learning for - LB
+Learner Return 244.384267464
+**********Tips for LB******************
+Buy
+------------------------------------------------------
+Downloaded -LLL data
+Started Learning for - LLL
+LLL failed
+Traceback (most recent call last):
+  File "TradingTips.py", line 32, in <module>
+    st.addEvidence(sym, sd=start_day, ed=end_day - timedelta(days=10), sv=1000)
+  File "/home/martin/PycharmProjects/personal_trading/strategy_learner/StrategyLearner.py", line 117, in addEvidence
+    port_vals = compute_portvals(orders_df,symbol,sv,0,impact=self.impact)
+  File "/home/martin/PycharmProjects/personal_trading/strategy_learner/marketsimcode.py", line 38, in compute_portvals
+    trade_df = make_trades(price_df, sym,orders_df,sv, commission, impact)
+  File "/home/martin/PycharmProjects/personal_trading/strategy_learner/marketsimcode.py", line 80, in make_trades
+    trades_df.ix[index]['Cash'] = current_cash
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/series.py", line 771, in __setitem__
+    setitem(key, value)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/series.py", line 747, in setitem
+    self.loc[key] = value
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/indexing.py", line 179, in __setitem__
+    self._setitem_with_indexer(indexer, value)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/indexing.py", line 605, in _setitem_with_indexer
+    value = self._align_series(indexer, Series(value))
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/indexing.py", line 738, in _align_series
+    ax = self.obj._get_axis(1)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/generic.py", line 369, in _get_axis
+    name = self._get_axis_name(axis)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/generic.py", line 366, in _get_axis_name
+    .format(axis, type(self)))
+ValueError: No axis named 1 for object type <class 'pandas.core.series.Series'>
+Downloaded -LH data
+Started Learning for - LH
+Learner Return 308.979408816
+**********Tips for LH******************
+Sell
+------------------------------------------------------
+Downloaded -LRCX data
+Started Learning for - LRCX
+Learner Return 3747.60166633
+**********Tips for LRCX******************
+Hold
+------------------------------------------------------
+Downloaded -LEG data
+Started Learning for - LEG
+Learner Return 201.239613151
+**********Tips for LEG******************
+Hold
+------------------------------------------------------
+Downloaded -LEN data
+Started Learning for - LEN
+Learner Return 326.609761563
+**********Tips for LEN******************
+Hold
+------------------------------------------------------
+LUK failed
+Traceback (most recent call last):
+  File "TradingTips.py", line 29, in <module>
+    pull_historical_data(sym, start_day - timedelta(days=50), end_day)
+  File "TradingTips.py", line 10, in pull_historical_data
+    stoc_data = pdr.get_data_yahoo(symbols=ticker_symbol, start=sd, end=ed)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas_datareader/data.py", line 70, in get_data_yahoo
+    return YahooDailyReader(*args, **kwargs).read()
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas_datareader/base.py", line 210, in read
+    params=self._get_params(self.symbols))
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas_datareader/yahoo/daily.py", line 142, in _read_one_data
+    to_datetime(prices['Date'], unit='s').dt.date)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/frame.py", line 1964, in __getitem__
+    return self._getitem_column(key)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/frame.py", line 1971, in _getitem_column
+    return self._get_item_cache(key)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/generic.py", line 1645, in _get_item_cache
+    values = self._data.get(item)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/internals.py", line 3590, in get
+    loc = self.items.get_loc(item)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/indexes/base.py", line 2444, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 132, in pandas._libs.index.IndexEngine.get_loc (pandas/_libs/index.c:5280)
+  File "pandas/_libs/index.pyx", line 154, in pandas._libs.index.IndexEngine.get_loc (pandas/_libs/index.c:5126)
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1210, in pandas._libs.hashtable.PyObjectHashTable.get_item (pandas/_libs/hashtable.c:20523)
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1218, in pandas._libs.hashtable.PyObjectHashTable.get_item (pandas/_libs/hashtable.c:20477)
+KeyError: 'Date'
+Downloaded -LLY data
+Started Learning for - LLY
+Learner Return 530.865988649
+**********Tips for LLY******************
+Sell
+------------------------------------------------------
+Downloaded -LNC data
+Started Learning for - LNC
+Learner Return 271.547306366
+**********Tips for LNC******************
+Hold
+------------------------------------------------------
+Downloaded -LKQ data
+Started Learning for - LKQ
+Learner Return 108.665350078
+**********Tips for LKQ******************
+Hold
+------------------------------------------------------
+Downloaded -LMT data
+Started Learning for - LMT
+Learner Return 1100.2924562
+**********Tips for LMT******************
+Buy
+------------------------------------------------------
+Downloaded -L data
+Started Learning for - L
+Learner Return 141.090829316
+**********Tips for L******************
+Hold
+------------------------------------------------------
+Downloaded -LOW data
+Started Learning for - LOW
+Learner Return 384.466595955
+**********Tips for LOW******************
+Hold
+------------------------------------------------------
+Downloaded -LYB data
+Started Learning for - LYB
+Learner Return 635.022620629
+**********Tips for LYB******************
+Buy
+------------------------------------------------------
+Downloaded -MTB data
+Started Learning for - MTB
+Learner Return 333.493503917
+**********Tips for MTB******************
+Hold
+------------------------------------------------------
+Downloaded -MAC data
+Started Learning for - MAC
+Learner Return 214.08395899
+**********Tips for MAC******************
+Sell
+------------------------------------------------------
+Downloaded -M data
+Started Learning for - M
+Learner Return 221.947810457
+**********Tips for M******************
+Sell
+------------------------------------------------------
+Downloaded -MRO data
+Started Learning for - MRO
+Learner Return 110.126857988
+**********Tips for MRO******************
+Hold
+------------------------------------------------------
+Downloaded -MPC data
+Started Learning for - MPC
+Learner Return 383.622795749
+**********Tips for MPC******************
+Hold
+------------------------------------------------------
+Downloaded -MAR data
+Started Learning for - MAR
+Learner Return 893.468697719
+**********Tips for MAR******************
+Buy
+------------------------------------------------------
+Downloaded -MMC data
+Started Learning for - MMC
+Learner Return 165.623970554
+**********Tips for MMC******************
+Hold
+------------------------------------------------------
+Downloaded -MLM data
+Started Learning for - MLM
+Learner Return 886.883143706
+**********Tips for MLM******************
+Hold
+------------------------------------------------------
+Downloaded -MAS data
+Started Learning for - MAS
+Learner Return 143.458048859
+**********Tips for MAS******************
+Hold
+------------------------------------------------------
+Downloaded -MA data
+Started Learning for - MA
+Learner Return 1836.17999182
+**********Tips for MA******************
+Buy
+------------------------------------------------------
+Downloaded -MAT data
+Started Learning for - MAT
+Learner Return 123.559842961
+**********Tips for MAT******************
+Hold
+------------------------------------------------------
+Downloaded -MKC data
+Started Learning for - MKC
+Learner Return 278.411799518
+**********Tips for MKC******************
+Hold
+------------------------------------------------------
+Downloaded -MCD data
+Started Learning for - MCD
+Learner Return 469.219300609
+**********Tips for MCD******************
+Hold
+------------------------------------------------------
+Downloaded -MCK data
+Started Learning for - MCK
+Learner Return 2046.82876062
+**********Tips for MCK******************
+Buy
+------------------------------------------------------
+Downloaded -MDT data
+Started Learning for - MDT
+Learner Return 194.160752223
+**********Tips for MDT******************
+Hold
+------------------------------------------------------
+Downloaded -MRK data
+Started Learning for - MRK
+Learner Return 204.581365127
+**********Tips for MRK******************
+Hold
+------------------------------------------------------
+Downloaded -MET data
+Started Learning for - MET
+Learner Return 142.116045556
+**********Tips for MET******************
+Hold
+------------------------------------------------------
+Downloaded -MTD data
+Started Learning for - MTD
+Learner Return 2522.46078921
+**********Tips for MTD******************
+Hold
+------------------------------------------------------
+Downloaded -MGM data
+Started Learning for - MGM
+Learner Return 209.621615238
+**********Tips for MGM******************
+Hold
+------------------------------------------------------
+KORS failed
+Traceback (most recent call last):
+  File "TradingTips.py", line 29, in <module>
+    pull_historical_data(sym, start_day - timedelta(days=50), end_day)
+  File "TradingTips.py", line 10, in pull_historical_data
+    stoc_data = pdr.get_data_yahoo(symbols=ticker_symbol, start=sd, end=ed)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas_datareader/data.py", line 70, in get_data_yahoo
+    return YahooDailyReader(*args, **kwargs).read()
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas_datareader/base.py", line 210, in read
+    params=self._get_params(self.symbols))
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas_datareader/yahoo/daily.py", line 142, in _read_one_data
+    to_datetime(prices['Date'], unit='s').dt.date)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/frame.py", line 1964, in __getitem__
+    return self._getitem_column(key)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/frame.py", line 1971, in _getitem_column
+    return self._get_item_cache(key)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/generic.py", line 1645, in _get_item_cache
+    values = self._data.get(item)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/internals.py", line 3590, in get
+    loc = self.items.get_loc(item)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/indexes/base.py", line 2444, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 132, in pandas._libs.index.IndexEngine.get_loc (pandas/_libs/index.c:5280)
+  File "pandas/_libs/index.pyx", line 154, in pandas._libs.index.IndexEngine.get_loc (pandas/_libs/index.c:5126)
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1210, in pandas._libs.hashtable.PyObjectHashTable.get_item (pandas/_libs/hashtable.c:20523)
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1218, in pandas._libs.hashtable.PyObjectHashTable.get_item (pandas/_libs/hashtable.c:20477)
+KeyError: 'Date'
+Downloaded -MCHP data
+Started Learning for - MCHP
+Learner Return 724.5854896
+**********Tips for MCHP******************
+Buy
+------------------------------------------------------
+Downloaded -MU data
+Started Learning for - MU
+Learner Return 431.5800488
+**********Tips for MU******************
+Hold
+------------------------------------------------------
+Downloaded -MSFT data
+Started Learning for - MSFT
+Learner Return 275.827976391
+**********Tips for MSFT******************
+Hold
+------------------------------------------------------
+Downloaded -MAA data
+Started Learning for - MAA
+Learner Return 285.875097998
+**********Tips for MAA******************
+Hold
+------------------------------------------------------
+Downloaded -MHK data
+Started Learning for - MHK
+Learner Return -4602.78396388
+**********Tips for MHK******************
+Buy
+------------------------------------------------------
+Downloaded -TAP data
+Started Learning for - TAP
+Learner Return 190.484851738
+**********Tips for TAP******************
+Hold
+------------------------------------------------------
+Downloaded -MDLZ data
+Started Learning for - MDLZ
+Learner Return 95.9694142706
+**********Tips for MDLZ******************
+Hold
+------------------------------------------------------
+Downloaded -MON data
+Started Learning for - MON
+MON failed
+Traceback (most recent call last):
+  File "TradingTips.py", line 32, in <module>
+    st.addEvidence(sym, sd=start_day, ed=end_day - timedelta(days=10), sv=1000)
+  File "/home/martin/PycharmProjects/personal_trading/strategy_learner/StrategyLearner.py", line 101, in addEvidence
+    action = self.q_learner.querysetstate(state)
+  File "/home/martin/PycharmProjects/personal_trading/strategy_learner/QLearner.py", line 76, in querysetstate
+    res = np.where(self.q[s] == np.amax(self.q[s]))[0]
+IndexError: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices
+Downloaded -MNST data
+Started Learning for - MNST
+Learner Return 320.699566735
+**********Tips for MNST******************
+Hold
+------------------------------------------------------
+Downloaded -MCO data
+Started Learning for - MCO
+Learner Return 322.670682526
+**********Tips for MCO******************
+Buy
+------------------------------------------------------
+Downloaded -MS data
+Started Learning for - MS
+Learner Return 193.778936997
+**********Tips for MS******************
+Hold
+------------------------------------------------------
+Downloaded -MSI data
+Started Learning for - MSI
+Learner Return 701.872618888
+**********Tips for MSI******************
+Sell
+------------------------------------------------------
+Downloaded -MYL data
+Started Learning for - MYL
+Learner Return 243.238060544
+**********Tips for MYL******************
+Hold
+------------------------------------------------------
+Downloaded -NDAQ data
+Started Learning for - NDAQ
+Learner Return 183.845349532
+**********Tips for NDAQ******************
+Buy
+------------------------------------------------------
+Downloaded -NOV data
+Started Learning for - NOV
+Learner Return 232.476532696
+**********Tips for NOV******************
+Hold
+------------------------------------------------------
+Downloaded -NAVI data
+Started Learning for - NAVI
+Learner Return 64.0558338245
+**********Tips for NAVI******************
+Hold
+------------------------------------------------------
+Downloaded -NKTR data
+Started Learning for - NKTR
+Learner Return 463.10877631
+**********Tips for NKTR******************
+Hold
+------------------------------------------------------
+Downloaded -NTAP data
+Started Learning for - NTAP
+Learner Return 260.471332141
+**********Tips for NTAP******************
+Hold
+------------------------------------------------------
+Downloaded -NFLX data
+Started Learning for - NFLX
+Learner Return 9190.43509523
+**********Tips for NFLX******************
+Hold
+------------------------------------------------------
+Downloaded -NWL data
+Started Learning for - NWL
+Learner Return 207.405266703
+**********Tips for NWL******************
+Hold
+------------------------------------------------------
+Downloaded -NFX data
+Started Learning for - NFX
+NFX failed
+Traceback (most recent call last):
+  File "TradingTips.py", line 32, in <module>
+    st.addEvidence(sym, sd=start_day, ed=end_day - timedelta(days=10), sv=1000)
+  File "/home/martin/PycharmProjects/personal_trading/strategy_learner/StrategyLearner.py", line 101, in addEvidence
+    action = self.q_learner.querysetstate(state)
+  File "/home/martin/PycharmProjects/personal_trading/strategy_learner/QLearner.py", line 76, in querysetstate
+    res = np.where(self.q[s] == np.amax(self.q[s]))[0]
+IndexError: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices
+Downloaded -NEM data
+Started Learning for - NEM
+Learner Return 174.280506782
+**********Tips for NEM******************
+Buy
+------------------------------------------------------
+Downloaded -NWSA data
+Started Learning for - NWSA
+Learner Return 52.7144464877
+**********Tips for NWSA******************
+Hold
+------------------------------------------------------
+Downloaded -NWS data
+Started Learning for - NWS
+Learner Return 47.1609772022
+**********Tips for NWS******************
+Hold
+------------------------------------------------------
+Downloaded -NEE data
+Started Learning for - NEE
+Learner Return 453.423253256
+**********Tips for NEE******************
+Hold
+------------------------------------------------------
+Downloaded -NLSN data
+Started Learning for - NLSN
+Learner Return 145.930242213
+**********Tips for NLSN******************
+Hold
+------------------------------------------------------
+Downloaded -NKE data
+Started Learning for - NKE
+Learner Return 350.645053597
+**********Tips for NKE******************
+Hold
+------------------------------------------------------
+Downloaded -NI data
+Started Learning for - NI
+Learner Return 69.0532475095
+**********Tips for NI******************
+Hold
+------------------------------------------------------
+Downloaded -NBL data
+Started Learning for - NBL
+Learner Return 177.041531936
+**********Tips for NBL******************
+Hold
+------------------------------------------------------
+Downloaded -JWN data
+Started Learning for - JWN
+Learner Return 330.769733993
+**********Tips for JWN******************
+Hold
+------------------------------------------------------
+Downloaded -NSC data
+Started Learning for - NSC
+Learner Return 1335.47343434
+**********Tips for NSC******************
+Hold
+------------------------------------------------------
+Downloaded -NTRS data
+Started Learning for - NTRS
+Learner Return 246.574710145
+**********Tips for NTRS******************
+Buy
+------------------------------------------------------
+Downloaded -NOC data
+Started Learning for - NOC
+Learner Return 1051.19013466
+**********Tips for NOC******************
+Hold
+------------------------------------------------------
+Downloaded -NCLH data
+Started Learning for - NCLH
+Learner Return 235.409622706
+**********Tips for NCLH******************
+Hold
+------------------------------------------------------
+Downloaded -NRG data
+Started Learning for - NRG
+Learner Return 145.373205367
+**********Tips for NRG******************
+Hold
+------------------------------------------------------
+Downloaded -NUE data
+Started Learning for - NUE
+Learner Return 214.120530166
+**********Tips for NUE******************
+Hold
+------------------------------------------------------
+Downloaded -NVDA data
+Started Learning for - NVDA
+Learner Return 1433.12536957
+**********Tips for NVDA******************
+Hold
+------------------------------------------------------
+Downloaded -ORLY data
+Started Learning for - ORLY
+Learner Return -4820.42547299
+**********Tips for ORLY******************
+Sell
+------------------------------------------------------
+Downloaded -OXY data
+Started Learning for - OXY
+Learner Return 246.219804953
+**********Tips for OXY******************
+Sell
+------------------------------------------------------
+Downloaded -OMC data
+Started Learning for - OMC
+Learner Return 450.500672436
+**********Tips for OMC******************
+Buy
+------------------------------------------------------
+Downloaded -OKE data
+Started Learning for - OKE
+Learner Return 264.01995447
+**********Tips for OKE******************
+Hold
+------------------------------------------------------
+Downloaded -ORCL data
+Started Learning for - ORCL
+Learner Return 215.745458414
+**********Tips for ORCL******************
+Hold
+------------------------------------------------------
+Downloaded -PCAR data
+Started Learning for - PCAR
+Learner Return 189.653761038
+**********Tips for PCAR******************
+Hold
+------------------------------------------------------
+Downloaded -PKG data
+Started Learning for - PKG
+Learner Return 417.000118708
+**********Tips for PKG******************
+Sell
+------------------------------------------------------
+Downloaded -PH data
+Started Learning for - PH
+Learner Return 714.119815983
+**********Tips for PH******************
+Hold
+------------------------------------------------------
+Downloaded -PAYX data
+Started Learning for - PAYX
+Learner Return 149.821765773
+**********Tips for PAYX******************
+Hold
+------------------------------------------------------
+Downloaded -PYPL data
+Started Learning for - PYPL
+Learner Return 510.931303889
+**********Tips for PYPL******************
+Buy
+------------------------------------------------------
+Downloaded -PNR data
+Started Learning for - PNR
+Learner Return 155.422701836
+**********Tips for PNR******************
+Hold
+------------------------------------------------------
+Downloaded -PBCT data
+Started Learning for - PBCT
+Learner Return 53.5068433956
+**********Tips for PBCT******************
+Hold
+------------------------------------------------------
+Downloaded -PEP data
+Started Learning for - PEP
+Learner Return 283.028898032
+**********Tips for PEP******************
+Hold
+------------------------------------------------------
+Downloaded -PKI data
+Started Learning for - PKI
+Learner Return 454.041347519
+**********Tips for PKI******************
+Hold
+------------------------------------------------------
+Downloaded -PRGO data
+Started Learning for - PRGO
+Learner Return 563.632181167
+**********Tips for PRGO******************
+Hold
+------------------------------------------------------
+Downloaded -PFE data
+Started Learning for - PFE
+Learner Return 99.5517238402
+**********Tips for PFE******************
+Hold
+------------------------------------------------------
+Downloaded -PCG data
+Started Learning for - PCG
+Learner Return 267.582831439
+**********Tips for PCG******************
+Hold
+------------------------------------------------------
+Downloaded -PM data
+Started Learning for - PM
+Learner Return 203.386615956
+**********Tips for PM******************
+Hold
+------------------------------------------------------
+Downloaded -PSX data
+Started Learning for - PSX
+Learner Return 354.343636125
+**********Tips for PSX******************
+Hold
+------------------------------------------------------
+Downloaded -PNW data
+Started Learning for - PNW
+Learner Return 217.447500953
+**********Tips for PNW******************
+Hold
+------------------------------------------------------
+Downloaded -PXD data
+Started Learning for - PXD
+Learner Return 876.907848739
+**********Tips for PXD******************
+Buy
+------------------------------------------------------
+Downloaded -PNC data
+Started Learning for - PNC
+Learner Return 287.428622063
+**********Tips for PNC******************
+Sell
+------------------------------------------------------
+Downloaded -RL data
+Started Learning for - RL
+Learner Return 964.158809937
+**********Tips for RL******************
+Hold
+------------------------------------------------------
+Downloaded -PPG data
+Started Learning for - PPG
+Learner Return 248.037234802
+**********Tips for PPG******************
+Hold
+------------------------------------------------------
+Downloaded -PPL data
+Started Learning for - PPL
+Learner Return 122.837644469
+**********Tips for PPL******************
+Hold
+------------------------------------------------------
+Downloaded -PX data
+Started Learning for - PX
+PX failed
+Traceback (most recent call last):
+  File "TradingTips.py", line 32, in <module>
+    st.addEvidence(sym, sd=start_day, ed=end_day - timedelta(days=10), sv=1000)
+  File "/home/martin/PycharmProjects/personal_trading/strategy_learner/StrategyLearner.py", line 101, in addEvidence
+    action = self.q_learner.querysetstate(state)
+  File "/home/martin/PycharmProjects/personal_trading/strategy_learner/QLearner.py", line 76, in querysetstate
+    res = np.where(self.q[s] == np.amax(self.q[s]))[0]
+IndexError: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices
+Downloaded -PFG data
+Started Learning for - PFG
+Learner Return 216.833676606
+**********Tips for PFG******************
+Hold
+------------------------------------------------------
+Downloaded -PG data
+Started Learning for - PG
+Learner Return 158.748001896
+**********Tips for PG******************
+Buy
+------------------------------------------------------
+Downloaded -PGR data
+Started Learning for - PGR
+Learner Return 160.180654724
+**********Tips for PGR******************
+Sell
+------------------------------------------------------
+Downloaded -PLD data
+Started Learning for - PLD
+Learner Return 179.340592258
+**********Tips for PLD******************
+Hold
+------------------------------------------------------
+Downloaded -PRU data
+Started Learning for - PRU
+Learner Return 257.840866025
+**********Tips for PRU******************
+Hold
+------------------------------------------------------
+Downloaded -PEG data
+Started Learning for - PEG
+Learner Return 111.329935728
+**********Tips for PEG******************
+Hold
+------------------------------------------------------
+Downloaded -PSA data
+Started Learning for - PSA
+Learner Return 14670.8561544
+**********Tips for PSA******************
+Hold
+------------------------------------------------------
+Downloaded -PHM data
+Started Learning for - PHM
+Learner Return 143.747437311
+**********Tips for PHM******************
+Hold
+------------------------------------------------------
+Downloaded -PVH data
+Started Learning for - PVH
+Learner Return 598.382398521
+**********Tips for PVH******************
+Hold
+------------------------------------------------------
+Downloaded -QRVO data
+Started Learning for - QRVO
+Learner Return 701.612540952
+**********Tips for QRVO******************
+Hold
+------------------------------------------------------
+Downloaded -QCOM data
+Started Learning for - QCOM
+Learner Return 409.815786095
+**********Tips for QCOM******************
+Buy
+------------------------------------------------------
+Downloaded -PWR data
+Started Learning for - PWR
+Learner Return 139.881340429
+**********Tips for PWR******************
+Hold
+------------------------------------------------------
+Downloaded -DGX data
+Started Learning for - DGX
+Learner Return 196.495002515
+**********Tips for DGX******************
+Sell
+------------------------------------------------------
+Downloaded -RRC data
+Started Learning for - RRC
+Learner Return 136.699733039
+**********Tips for RRC******************
+Hold
+------------------------------------------------------
+Downloaded -RJF data
+Started Learning for - RJF
+Learner Return 244.735921097
+**********Tips for RJF******************
+Hold
+------------------------------------------------------
+Downloaded -RTN data
+Started Learning for - RTN
+Learner Return 366.62591217
+**********Tips for RTN******************
+Hold
+------------------------------------------------------
+Downloaded -O data
+Started Learning for - O
+Learner Return 146.211435851
+**********Tips for O******************
+Hold
+------------------------------------------------------
+Downloaded -RHT data
+Started Learning for - RHT
+Learner Return 937.607161789
+**********Tips for RHT******************
+Hold
+------------------------------------------------------
+Downloaded -REG data
+Started Learning for - REG
+Learner Return 202.212209758
+**********Tips for REG******************
+Hold
+------------------------------------------------------
+Downloaded -REGN data
+Started Learning for - REGN
+Learner Return -1897.79247201
+**********Tips for REGN******************
+Hold
+------------------------------------------------------
+Downloaded -RF data
+Started Learning for - RF
+Learner Return 65.1956260198
+**********Tips for RF******************
+Hold
+------------------------------------------------------
+Downloaded -RSG data
+Started Learning for - RSG
+Learner Return 167.555597039
+**********Tips for RSG******************
+Hold
+------------------------------------------------------
+Downloaded -RMD data
+Started Learning for - RMD
+Learner Return 385.757006993
+**********Tips for RMD******************
+Hold
+------------------------------------------------------
+Downloaded -RHI data
+Started Learning for - RHI
+Learner Return 348.167352906
+**********Tips for RHI******************
+Hold
+------------------------------------------------------
+Downloaded -ROK data
+Started Learning for - ROK
+Learner Return 2513.1733618
+**********Tips for ROK******************
+Hold
+------------------------------------------------------
+Downloaded -COL data
+Started Learning for - COL
+COL failed
+Traceback (most recent call last):
+  File "TradingTips.py", line 32, in <module>
+    st.addEvidence(sym, sd=start_day, ed=end_day - timedelta(days=10), sv=1000)
+  File "/home/martin/PycharmProjects/personal_trading/strategy_learner/StrategyLearner.py", line 101, in addEvidence
+    action = self.q_learner.querysetstate(state)
+  File "/home/martin/PycharmProjects/personal_trading/strategy_learner/QLearner.py", line 76, in querysetstate
+    res = np.where(self.q[s] == np.amax(self.q[s]))[0]
+IndexError: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices
+Downloaded -ROP data
+Started Learning for - ROP
+Learner Return -9699.9438328
+**********Tips for ROP******************
+Sell
+------------------------------------------------------
+Downloaded -ROST data
+Started Learning for - ROST
+Learner Return 491.433539564
+**********Tips for ROST******************
+Sell
+------------------------------------------------------
+Downloaded -RCL data
+Started Learning for - RCL
+Learner Return 543.37539322
+**********Tips for RCL******************
+Hold
+------------------------------------------------------
+Downloaded -SPGI data
+Started Learning for - SPGI
+Learner Return 1680.02889949
+**********Tips for SPGI******************
+Hold
+------------------------------------------------------
+Downloaded -CRM data
+Started Learning for - CRM
+Learner Return 1111.70604364
+**********Tips for CRM******************
+Hold
+------------------------------------------------------
+Downloaded -SBAC data
+Started Learning for - SBAC
+Learner Return 351.35817257
+**********Tips for SBAC******************
+Hold
+------------------------------------------------------
+Downloaded -SCG data
+Started Learning for - SCG
+SCG failed
+Traceback (most recent call last):
+  File "TradingTips.py", line 32, in <module>
+    st.addEvidence(sym, sd=start_day, ed=end_day - timedelta(days=10), sv=1000)
+  File "/home/martin/PycharmProjects/personal_trading/strategy_learner/StrategyLearner.py", line 101, in addEvidence
+    action = self.q_learner.querysetstate(state)
+  File "/home/martin/PycharmProjects/personal_trading/strategy_learner/QLearner.py", line 76, in querysetstate
+    res = np.where(self.q[s] == np.amax(self.q[s]))[0]
+IndexError: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices
+Downloaded -SLB data
+Started Learning for - SLB
+Learner Return 353.844943208
+**********Tips for SLB******************
+Hold
+------------------------------------------------------
+Downloaded -STX data
+Started Learning for - STX
+Learner Return 270.839397699
+**********Tips for STX******************
+Hold
+------------------------------------------------------
+Downloaded -SEE data
+Started Learning for - SEE
+Learner Return 147.271032676
+**********Tips for SEE******************
+Hold
+------------------------------------------------------
+Downloaded -SRE data
+Started Learning for - SRE
+Learner Return 340.666219629
+**********Tips for SRE******************
+Hold
+------------------------------------------------------
+Downloaded -SHW data
+Started Learning for - SHW
+Learner Return 1242.72213867
+**********Tips for SHW******************
+Hold
+------------------------------------------------------
+Downloaded -SPG data
+Started Learning for - SPG
+Learner Return 539.222400803
+**********Tips for SPG******************
+Hold
+------------------------------------------------------
+Downloaded -SWKS data
+Started Learning for - SWKS
+Learner Return 815.829082148
+**********Tips for SWKS******************
+Buy
+------------------------------------------------------
+Downloaded -SLG data
+Started Learning for - SLG
+Learner Return 308.396155697
+**********Tips for SLG******************
+Hold
+------------------------------------------------------
+Downloaded -SNA data
+Started Learning for - SNA
+Learner Return 3128.524876
+**********Tips for SNA******************
+Hold
+------------------------------------------------------
+Downloaded -SO data
+Started Learning for - SO
+Learner Return 98.352982611
+**********Tips for SO******************
+Hold
+------------------------------------------------------
+Downloaded -LUV data
+Started Learning for - LUV
+Learner Return 234.452376213
+**********Tips for LUV******************
+Sell
+------------------------------------------------------
+Downloaded -SWK data
+Started Learning for - SWK
+Learner Return 1730.18366795
+**********Tips for SWK******************
+Hold
+------------------------------------------------------
+Downloaded -SBUX data
+Started Learning for - SBUX
+Learner Return 153.397568632
+**********Tips for SBUX******************
+Hold
+------------------------------------------------------
+Downloaded -STT data
+Started Learning for - STT
+Learner Return 240.737102683
+**********Tips for STT******************
+Buy
+------------------------------------------------------
+Downloaded -SRCL data
+Started Learning for - SRCL
+Learner Return 281.951739883
+**********Tips for SRCL******************
+Hold
+------------------------------------------------------
+Downloaded -SYK data
+Started Learning for - SYK
+Learner Return 346.905705884
+**********Tips for SYK******************
+Buy
+------------------------------------------------------
+Downloaded -STI data
+Started Learning for - STI
+Learner Return 236.22197302
+**********Tips for STI******************
+Sell
+------------------------------------------------------
+Downloaded -SIVB data
+Started Learning for - SIVB
+Learner Return 15804.7125072
+**********Tips for SIVB******************
+Hold
+------------------------------------------------------
+Downloaded -SYMC data
+Started Learning for - SYMC
+Learner Return 130.625651817
+**********Tips for SYMC******************
+Hold
+------------------------------------------------------
+Downloaded -SYF data
+Started Learning for - SYF
+Learner Return 120.811778476
+**********Tips for SYF******************
+Hold
+------------------------------------------------------
+Downloaded -SNPS data
+Started Learning for - SNPS
+Learner Return 239.202596978
+**********Tips for SNPS******************
+Hold
+------------------------------------------------------
+Downloaded -SYY data
+Started Learning for - SYY
+Learner Return 136.543079906
+**********Tips for SYY******************
+Buy
+------------------------------------------------------
+Downloaded -TROW data
+Started Learning for - TROW
+Learner Return 284.25876355
+**********Tips for TROW******************
+Hold
+------------------------------------------------------
+Downloaded -TTWO data
+Started Learning for - TTWO
+Learner Return 925.265035801
+**********Tips for TTWO******************
+Hold
+------------------------------------------------------
+Downloaded -TPR data
+Started Learning for - TPR
+Learner Return 231.510793657
+**********Tips for TPR******************
+Hold
+------------------------------------------------------
+Downloaded -TGT data
+Started Learning for - TGT
+Learner Return 454.840981399
+**********Tips for TGT******************
+Buy
+------------------------------------------------------
+Downloaded -TEL data
+Started Learning for - TEL
+Learner Return 457.352467973
+**********Tips for TEL******************
+Sell
+------------------------------------------------------
+Downloaded -FTI data
+Started Learning for - FTI
+Learner Return 144.730503218
+**********Tips for FTI******************
+Sell
+------------------------------------------------------
+Downloaded -TXN data
+Started Learning for - TXN
+Learner Return 713.578734298
+**********Tips for TXN******************
+Hold
+------------------------------------------------------
+Downloaded -TXT data
+Started Learning for - TXT
+Learner Return 295.657692356
+**********Tips for TXT******************
+Buy
+------------------------------------------------------
+Downloaded -BK data
+Started Learning for - BK
+Learner Return 169.505607701
+**********Tips for BK******************
+Hold
+------------------------------------------------------
+Downloaded -CLX data
+Started Learning for - CLX
+Learner Return 1314.94228258
+**********Tips for CLX******************
+Hold
+------------------------------------------------------
+Downloaded -COO data
+Started Learning for - COO
+Learner Return -30284.1561083
+**********Tips for COO******************
+Hold
+------------------------------------------------------
+Downloaded -HSY data
+Started Learning for - HSY
+Learner Return 324.103910251
+**********Tips for HSY******************
+Sell
+------------------------------------------------------
+Downloaded -MOS data
+Started Learning for - MOS
+Learner Return 133.87252537
+**********Tips for MOS******************
+Hold
+------------------------------------------------------
+Downloaded -TRV data
+Started Learning for - TRV
+Learner Return 232.763621111
+**********Tips for TRV******************
+Hold
+------------------------------------------------------
+Downloaded -DIS data
+Started Learning for - DIS
+Learner Return 369.732260086
+**********Tips for DIS******************
+Hold
+------------------------------------------------------
+Downloaded -TMO data
+Started Learning for - TMO
+Learner Return 5264.87509138
+**********Tips for TMO******************
+Hold
+------------------------------------------------------
+Downloaded -TIF data
+Started Learning for - TIF
+Learner Return 794.722028672
+**********Tips for TIF******************
+Buy
+------------------------------------------------------
+TWX failed
+Traceback (most recent call last):
+  File "TradingTips.py", line 29, in <module>
+    pull_historical_data(sym, start_day - timedelta(days=50), end_day)
+  File "TradingTips.py", line 10, in pull_historical_data
+    stoc_data = pdr.get_data_yahoo(symbols=ticker_symbol, start=sd, end=ed)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas_datareader/data.py", line 70, in get_data_yahoo
+    return YahooDailyReader(*args, **kwargs).read()
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas_datareader/base.py", line 210, in read
+    params=self._get_params(self.symbols))
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas_datareader/yahoo/daily.py", line 142, in _read_one_data
+    to_datetime(prices['Date'], unit='s').dt.date)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/frame.py", line 1964, in __getitem__
+    return self._getitem_column(key)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/frame.py", line 1971, in _getitem_column
+    return self._get_item_cache(key)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/generic.py", line 1645, in _get_item_cache
+    values = self._data.get(item)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/internals.py", line 3590, in get
+    loc = self.items.get_loc(item)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/indexes/base.py", line 2444, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 132, in pandas._libs.index.IndexEngine.get_loc (pandas/_libs/index.c:5280)
+  File "pandas/_libs/index.pyx", line 154, in pandas._libs.index.IndexEngine.get_loc (pandas/_libs/index.c:5126)
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1210, in pandas._libs.hashtable.PyObjectHashTable.get_item (pandas/_libs/hashtable.c:20523)
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1218, in pandas._libs.hashtable.PyObjectHashTable.get_item (pandas/_libs/hashtable.c:20477)
+KeyError: 'Date'
+Downloaded -TJX data
+Started Learning for - TJX
+Learner Return 187.279768136
+**********Tips for TJX******************
+Hold
+------------------------------------------------------
+Downloaded -TMK data
+Started Learning for - TMK
+Learner Return 186.462126985
+**********Tips for TMK******************
+Sell
+------------------------------------------------------
+Downloaded -TSS data
+Started Learning for - TSS
+Learner Return 279.392308906
+**********Tips for TSS******************
+Hold
+------------------------------------------------------
+Downloaded -TSCO data
+Started Learning for - TSCO
+Learner Return 290.391171864
+**********Tips for TSCO******************
+Buy
+------------------------------------------------------
+Downloaded -TDG data
+Started Learning for - TDG
+Learner Return 651.210476576
+**********Tips for TDG******************
+Buy
+------------------------------------------------------
+Downloaded -TRIP data
+Started Learning for - TRIP
+Learner Return 402.574665771
+**********Tips for TRIP******************
+Hold
+------------------------------------------------------
+Downloaded -FOXA data
+Started Learning for - FOXA
+Learner Return 142.178239441
+**********Tips for FOXA******************
+Sell
+------------------------------------------------------
+Downloaded -FOX data
+Started Learning for - FOX
+Learner Return 142.332373515
+**********Tips for FOX******************
+Hold
+------------------------------------------------------
+Downloaded -TSN data
+Started Learning for - TSN
+Learner Return 233.439324856
+**********Tips for TSN******************
+Hold
+------------------------------------------------------
+Downloaded -USB data
+Started Learning for - USB
+Learner Return 143.874188118
+**********Tips for USB******************
+Sell
+------------------------------------------------------
+Downloaded -UDR data
+Started Learning for - UDR
+Learner Return 130.727313104
+**********Tips for UDR******************
+Hold
+------------------------------------------------------
+Downloaded -ULTA data
+Started Learning for - ULTA
+Learner Return -2708.09328197
+**********Tips for ULTA******************
+Hold
+------------------------------------------------------
+Downloaded -UAA data
+Started Learning for - UAA
+Learner Return 167.729572821
+**********Tips for UAA******************
+Sell
+------------------------------------------------------
+Downloaded -UA data
+Started Learning for - UA
+Learner Return 133.273021341
+**********Tips for UA******************
+Sell
+------------------------------------------------------
+Downloaded -UNP data
+Started Learning for - UNP
+Learner Return 333.853958254
+**********Tips for UNP******************
+Buy
+------------------------------------------------------
+Downloaded -UAL data
+Started Learning for - UAL
+Learner Return 584.33780613
+**********Tips for UAL******************
+Hold
+------------------------------------------------------
+Downloaded -UNH data
+Started Learning for - UNH
+Learner Return 892.560149913
+**********Tips for UNH******************
+Hold
+------------------------------------------------------
+Downloaded -UPS data
+Started Learning for - UPS
+Learner Return 250.772391708
+**********Tips for UPS******************
+Hold
+------------------------------------------------------
+Downloaded -URI data
+Started Learning for - URI
+Learner Return 1992.46363117
+**********Tips for URI******************
+Hold
+------------------------------------------------------
+Downloaded -UTX data
+Started Learning for - UTX
+Learner Return 403.709265715
+**********Tips for UTX******************
+Buy
+------------------------------------------------------
+Downloaded -UHS data
+Started Learning for - UHS
+Learner Return 1139.39112678
+**********Tips for UHS******************
+Hold
+------------------------------------------------------
+Downloaded -UNM data
+Started Learning for - UNM
+Learner Return 145.195068944
+**********Tips for UNM******************
+Buy
+------------------------------------------------------
+Downloaded -VFC data
+Started Learning for - VFC
+Learner Return 352.292040559
+**********Tips for VFC******************
+Sell
+------------------------------------------------------
+Downloaded -VLO data
+Started Learning for - VLO
+Learner Return 552.802549321
+**********Tips for VLO******************
+Hold
+------------------------------------------------------
+Downloaded -VAR data
+Started Learning for - VAR
+Learner Return 296.954268091
+**********Tips for VAR******************
+Hold
+------------------------------------------------------
+Downloaded -VTR data
+Started Learning for - VTR
+Learner Return 274.562837658
+**********Tips for VTR******************
+Hold
+------------------------------------------------------
+Downloaded -VRSN data
+Started Learning for - VRSN
+Learner Return 1001.61157415
+**********Tips for VRSN******************
+Hold
+------------------------------------------------------
+Downloaded -VRSK data
+Started Learning for - VRSK
+Learner Return 511.382033966
+**********Tips for VRSK******************
+Buy
+------------------------------------------------------
+Downloaded -VZ data
+Started Learning for - VZ
+Learner Return 142.704552202
+**********Tips for VZ******************
+Hold
+------------------------------------------------------
+Downloaded -VRTX data
+Started Learning for - VRTX
+Learner Return 903.291291999
+**********Tips for VRTX******************
+Hold
+------------------------------------------------------
+Downloaded -VIAB data
+Started Learning for - VIAB
+Learner Return 141.728524452
+**********Tips for VIAB******************
+Hold
+------------------------------------------------------
+Downloaded -V data
+Started Learning for - V
+Learner Return 798.366780847
+**********Tips for V******************
+Hold
+------------------------------------------------------
+Downloaded -VNO data
+Started Learning for - VNO
+Learner Return 214.862190018
+**********Tips for VNO******************
+Hold
+------------------------------------------------------
+Downloaded -VMC data
+Started Learning for - VMC
+Learner Return 1355.16718547
+**********Tips for VMC******************
+Hold
+------------------------------------------------------
+Downloaded -WMT data
+Started Learning for - WMT
+Learner Return 472.294727875
+**********Tips for WMT******************
+Hold
+------------------------------------------------------
+Downloaded -WBA data
+Started Learning for - WBA
+Learner Return 287.94736637
+**********Tips for WBA******************
+Hold
+------------------------------------------------------
+Downloaded -WM data
+Started Learning for - WM
+Learner Return 206.069268149
+**********Tips for WM******************
+Hold
+------------------------------------------------------
+Downloaded -WAT data
+Started Learning for - WAT
+Learner Return 5825.53397384
+**********Tips for WAT******************
+Hold
+------------------------------------------------------
+Downloaded -WEC data
+Started Learning for - WEC
+Learner Return 162.351956424
+**********Tips for WEC******************
+Hold
+------------------------------------------------------
+Downloaded -WFC data
+Started Learning for - WFC
+Learner Return 144.593832233
+**********Tips for WFC******************
+Hold
+------------------------------------------------------
+Downloaded -WELL data
+Started Learning for - WELL
+Learner Return 206.472655449
+**********Tips for WELL******************
+Hold
+------------------------------------------------------
+Downloaded -WDC data
+Started Learning for - WDC
+Learner Return 429.931767729
+**********Tips for WDC******************
+Hold
+------------------------------------------------------
+Downloaded -WU data
+Started Learning for - WU
+Learner Return 54.4843468981
+**********Tips for WU******************
+Buy
+------------------------------------------------------
+Downloaded -WRK data
+Started Learning for - WRK
+Learner Return 214.556799392
+**********Tips for WRK******************
+Hold
+------------------------------------------------------
+Downloaded -WY data
+Started Learning for - WY
+Learner Return 115.727544831
+**********Tips for WY******************
+Hold
+------------------------------------------------------
+Downloaded -WHR data
+Started Learning for - WHR
+Learner Return 4863.69616279
+**********Tips for WHR******************
+Hold
+------------------------------------------------------
+Downloaded -WMB data
+Started Learning for - WMB
+Learner Return 102.137949638
+**********Tips for WMB******************
+Hold
+------------------------------------------------------
+Downloaded -WLTW data
+Started Learning for - WLTW
+Learner Return 272.747215518
+**********Tips for WLTW******************
+Buy
+------------------------------------------------------
+WYN failed
+Traceback (most recent call last):
+  File "TradingTips.py", line 29, in <module>
+    pull_historical_data(sym, start_day - timedelta(days=50), end_day)
+  File "TradingTips.py", line 10, in pull_historical_data
+    stoc_data = pdr.get_data_yahoo(symbols=ticker_symbol, start=sd, end=ed)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas_datareader/data.py", line 70, in get_data_yahoo
+    return YahooDailyReader(*args, **kwargs).read()
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas_datareader/base.py", line 210, in read
+    params=self._get_params(self.symbols))
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas_datareader/yahoo/daily.py", line 142, in _read_one_data
+    to_datetime(prices['Date'], unit='s').dt.date)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/frame.py", line 1964, in __getitem__
+    return self._getitem_column(key)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/frame.py", line 1971, in _getitem_column
+    return self._get_item_cache(key)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/generic.py", line 1645, in _get_item_cache
+    values = self._data.get(item)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/internals.py", line 3590, in get
+    loc = self.items.get_loc(item)
+  File "/home/martin/ml4t-venv/local/lib/python2.7/site-packages/pandas/core/indexes/base.py", line 2444, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 132, in pandas._libs.index.IndexEngine.get_loc (pandas/_libs/index.c:5280)
+  File "pandas/_libs/index.pyx", line 154, in pandas._libs.index.IndexEngine.get_loc (pandas/_libs/index.c:5126)
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1210, in pandas._libs.hashtable.PyObjectHashTable.get_item (pandas/_libs/hashtable.c:20523)
+  File "pandas/_libs/hashtable_class_helper.pxi", line 1218, in pandas._libs.hashtable.PyObjectHashTable.get_item (pandas/_libs/hashtable.c:20477)
+KeyError: 'Date'
+Downloaded -WYNN data
+Started Learning for - WYNN
+Learner Return 2058.2635748
+**********Tips for WYNN******************
+Hold
+------------------------------------------------------
+Downloaded -XEL data
+Started Learning for - XEL
+Learner Return 138.097410851
+**********Tips for XEL******************
+Hold
+------------------------------------------------------
+Downloaded -XRX data
+Started Learning for - XRX
+Learner Return 124.336553954
+**********Tips for XRX******************
+Buy
+------------------------------------------------------
+Downloaded -XLNX data
+Started Learning for - XLNX
+Learner Return 338.221894089
+**********Tips for XLNX******************
+Hold
+------------------------------------------------------
+Downloaded -XL data
+Started Learning for - XL
+XL failed
+Traceback (most recent call last):
+  File "TradingTips.py", line 32, in <module>
+    st.addEvidence(sym, sd=start_day, ed=end_day - timedelta(days=10), sv=1000)
+  File "/home/martin/PycharmProjects/personal_trading/strategy_learner/StrategyLearner.py", line 101, in addEvidence
+    action = self.q_learner.querysetstate(state)
+  File "/home/martin/PycharmProjects/personal_trading/strategy_learner/QLearner.py", line 76, in querysetstate
+    res = np.where(self.q[s] == np.amax(self.q[s]))[0]
+IndexError: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices
+Downloaded -XYL data
+Started Learning for - XYL
+Learner Return 212.569493436
+**********Tips for XYL******************
+Buy
+------------------------------------------------------
+Downloaded -YUM data
+Started Learning for - YUM
+Learner Return 172.121270157
+**********Tips for YUM******************
+Hold
+------------------------------------------------------
+Downloaded -ZBH data
+Started Learning for - ZBH
+ZBH failed
+Traceback (most recent call last):
+  File "TradingTips.py", line 32, in <module>
+    st.addEvidence(sym, sd=start_day, ed=end_day - timedelta(days=10), sv=1000)
+  File "/home/martin/PycharmProjects/personal_trading/strategy_learner/StrategyLearner.py", line 101, in addEvidence
+    action = self.q_learner.querysetstate(state)
+  File "/home/martin/PycharmProjects/personal_trading/strategy_learner/QLearner.py", line 76, in querysetstate
+    res = np.where(self.q[s] == np.amax(self.q[s]))[0]
+IndexError: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices
+Downloaded -ZION data
+Started Learning for - ZION
+Learner Return 201.52021572
+**********Tips for ZION******************
+Sell
+------------------------------------------------------
+Downloaded -ZTS data
+Started Learning for - ZTS
+Learner Return 291.44407066
+**********Tips for ZTS******************
+Hold

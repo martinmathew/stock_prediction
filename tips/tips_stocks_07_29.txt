@@ -1,0 +1,70 @@
+*************************************************************************************
+Cumulative in Out Sample for : HUM : value    24.3152
+dtype: object
+2019-07-22 00:00:00:Buy
+2019-07-23 00:00:00:Hold
+2019-07-24 00:00:00:Hold
+2019-07-25 00:00:00:Hold
+2019-07-26 00:00:00:Hold
+2019-07-29 00:00:00:Hold
+**************************************************************************************
+Downloaded -TDG data
+Started Learning for - TDG
+Learner Return 1227.68153381
+Started Testing on Out Sample - TDG
+Started Testing for trading - TDG
+*************************************************************************************
+Cumulative in Out Sample for : TDG : value    137.04
+dtype: object
+2019-07-22 00:00:00:Buy
+2019-07-23 00:00:00:Hold
+2019-07-24 00:00:00:Hold
+2019-07-25 00:00:00:Hold
+2019-07-26 00:00:00:Hold
+2019-07-29 00:00:00:Hold
+**************************************************************************************
+Downloaded -ROP data
+Started Learning for - ROP
+Learner Return 814.130813599
+Started Testing on Out Sample - ROP
+Started Testing for trading - ROP
+*************************************************************************************
+Cumulative in Out Sample for : ROP : value    46.6138
+dtype: object
+2019-07-22 00:00:00:Sell
+2019-07-23 00:00:00:Hold
+2019-07-24 00:00:00:Hold
+2019-07-25 00:00:00:Buy
+2019-07-26 00:00:00:Hold
+2019-07-29 00:00:00:Hold
+**************************************************************************************
+Downloaded -MA data
+Started Learning for - MA
+Learner Return 587.821983337
+Started Testing on Out Sample - MA
+Started Testing for trading - MA
+*************************************************************************************
+Cumulative in Out Sample for : MA : value    63.4021
+dtype: object
+2019-07-22 00:00:00:Buy
+2019-07-23 00:00:00:Hold
+2019-07-24 00:00:00:Hold
+2019-07-25 00:00:00:Hold
+2019-07-26 00:00:00:Hold
+2019-07-29 00:00:00:Hold
+**************************************************************************************
+Downloaded -LMT data
+Started Learning for - LMT
+Learner Return 940.965728744
+Started Testing on Out Sample - LMT
+Started Testing for trading - LMT
+*************************************************************************************
+Cumulative in Out Sample for : LMT : value    74.1613
+dtype: object
+2019-07-22 00:00:00:Hold
+2019-07-23 00:00:00:Hold
+2019-07-24 00:00:00:Buy
+2019-07-25 00:00:00:Hold
+2019-07-26 00:00:00:Hold
+2019-07-29 00:00:00:Hold
+**************************************************************************************
