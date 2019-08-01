@@ -137,16 +137,16 @@ class StrategyLearner(object):
     def calculate_trade(self, curr_holding, act):
         sell_buy = self.get_action(act)
         if curr_holding == 0 and sell_buy == 'B':
-            return 1
+            return 1000
         elif curr_holding == 0 and sell_buy == 'S':
-            return -1
-        elif curr_holding == 1 and sell_buy == 'B':
+            return -1000
+        elif curr_holding == 1000 and sell_buy == 'B':
             return 0
-        elif curr_holding == 1 and sell_buy == 'S':
-            return -2
-        elif curr_holding == -1 and sell_buy == 'B':
-            return 2
-        elif curr_holding == -1 and sell_buy == 'S':
+        elif curr_holding == 1000 and sell_buy == 'S':
+            return -2000
+        elif curr_holding == -1000 and sell_buy == 'B':
+            return 2000
+        elif curr_holding == -1000 and sell_buy == 'S':
             return 0
         elif sell_buy == 'N':
             return 0
