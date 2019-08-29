@@ -54,7 +54,7 @@ if __name__ == "__main__":
 
             trading_orders = st.testPolicy_ret_action(sym,sd=start_trade_day,ed=end_out_sample_time)
 
-            if cr[0] > 0.0:
+            if cr[0] > 1.0:
                 print "*************************************************************************************"
                 print "Cumulative in Out Sample for : {} : {}".format(sym, cr)
                 for index, row in trading_orders.iterrows():

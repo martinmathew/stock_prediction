@@ -58,6 +58,8 @@ class StrategyLearner(object):
                 pd.DataFrame(index=rsi.index,columns=rsi.columns,data=pd.qcut(x=rsi.ix[:,0].tolist(),q=10,labels=False,duplicates='drop')),\
                 pd.DataFrame(index=macd.index,columns=macd.columns,data=pd.qcut(x=macd.ix[:,0].tolist(),q=10,labels=False,duplicates='drop')))
 
+    def get_discritized_volume(self,volume_df,sd):
+        return pd.DataFrame(index=volume_df.index,columns=volume_df.columns,data=pd.qcut(x=volume_df.ix[:,0].tolist(),q=10,labels=False,duplicates='drop'))
 
     def get_price_df(self,dates, symbols):
         price_df = ut.get_data(symbols, dates)
@@ -65,6 +67,13 @@ class StrategyLearner(object):
         price_df.fillna(method='ffill', inplace=True)
         price_df.fillna(method='bfill', inplace=True)
         return price_df
+
+    def get_volume_df(self,dates, symbols):
+        volume_df = ut.get_data(symbols, dates,colname='Volume')
+        # volume_df = volume_df / volume_df.ix[0]
+        volume_df.fillna(method='ffill', inplace=True)
+        volume_df.fillna(method='bfill', inplace=True)
+        return volume_df
  			  		 			 	 	 		 		 	  		   	  			  	
     # this method should create a QLearner, and train it for trading 			  		 			 	 	 		 		 	  		   	  			  	
     def addEvidence(self, symbol = "IBM", \
@@ -79,10 +88,13 @@ class StrategyLearner(object):
 
         dates = pd.date_range(sd - timedelta(days=30), ed)
         prices_all = self.get_price_df(dates,syms)  # automatically adds SPY
+        volume_all = self.get_volume_df(dates,syms)
         prices = prices_all[syms]  # only portfolio symbols
+        volume = volume_all[syms]
         (bb,rsi,macd) = self.get_discritized_indicator(prices,sd)
+        vol_di = self.get_discritized_volume(volume,sd)
         prices = prices[sd:]
-        self.q_learner = QLearner(num_states=1000,num_actions=3)
+        self.q_learner = QLearner(num_states=10000,num_actions=3)
 
         minCount = 5
         maxCount = 15
@@ -97,7 +109,7 @@ class StrategyLearner(object):
             curr_holding = 0
             index , row  = next(prices_iter)
 
-            state = self.get_state_for_indicators(bb.ix[index][symbol], rsi.ix[index][symbol], macd.ix[index][symbol])
+            state = self.get_state_for_indicators(bb.ix[index][symbol], rsi.ix[index][symbol], macd.ix[index][symbol],vol_di.ix[index][symbol])
             action = self.q_learner.querysetstate(state,training=True)
 
             trade = self.calculate_trade(curr_holding,action)
@@ -113,7 +125,7 @@ class StrategyLearner(object):
                 curr_holding += trade
                 prev_row = row
                 state = self.get_state_for_indicators(bb.ix[index][symbol], rsi.ix[index][symbol],
-                                                      macd.ix[index][symbol])
+                                                      macd.ix[index][symbol],vol_di.ix[index][symbol])
             port_vals = compute_portvals(orders_df,symbol,sv,0,impact=self.impact)
             cr = self.get_cumulative_returns(port_vals)
             if (abs(prev_cr - cr[0]) < 0.00001 and minCount < 0) or maxCount < 0 :
@@ -137,22 +149,22 @@ class StrategyLearner(object):
     def calculate_trade(self, curr_holding, act):
         sell_buy = self.get_action(act)
         if curr_holding == 0 and sell_buy == 'B':
-            return 1000
+            return 10
         elif curr_holding == 0 and sell_buy == 'S':
-            return -1000
-        elif curr_holding == 1000 and sell_buy == 'B':
             return 0
-        elif curr_holding == 1000 and sell_buy == 'S':
-            return -2000
-        elif curr_holding == -1000 and sell_buy == 'B':
-            return 2000
-        elif curr_holding == -1000 and sell_buy == 'S':
+        elif curr_holding == 10 and sell_buy == 'B':
+            return 0
+        elif curr_holding == 10 and sell_buy == 'S':
+            return -10
+        elif curr_holding == 0 and sell_buy == 'B':
+            return 10
+        elif curr_holding == 0 and sell_buy == 'S':
             return 0
         elif sell_buy == 'N':
             return 0
 
-    def get_state_for_indicators(self, bb, rsi, macd):
-         return int(bb*100 + rsi*10 +macd)
+    def get_state_for_indicators(self, bb, rsi, macd,volume):
+         return int(bb*1000 + rsi*100 +macd*10+volume)
 
 
     # this method should use the existing policy and test it against new data 			  		 			 	 	 		 		 	  		   	  			  	
@@ -164,17 +176,19 @@ class StrategyLearner(object):
 
         dates = pd.date_range(sd - timedelta(days=50), ed)
         prices_all = self.get_price_df(dates, syms)  # automatically adds SPY
+        volume_all = self.get_volume_df(dates, syms)
+        volume = volume_all[syms]
         prices = prices_all[syms]  # only portfolio symbols
         (bb, rsi, macd) = self.get_discritized_indicator(prices, sd - timedelta(days=22))
         prices = prices[sd:]
-
+        vol_di = self.get_discritized_volume(volume, sd)
         orders_df = pd.DataFrame(index=prices.index, columns=[symbol])
         prices_iter = prices.iterrows()
 
         curr_holding = 0
         index, row = next(prices_iter)
 
-        state = self.get_state_for_indicators(bb.ix[index][symbol], rsi.ix[index][symbol], macd.ix[index][symbol])
+        state = self.get_state_for_indicators(bb.ix[index][symbol], rsi.ix[index][symbol], macd.ix[index][symbol],vol_di.ix[index][symbol])
         action = self.q_learner.querysetstate(state)
 
         trade = self.calculate_trade(curr_holding,action)
@@ -189,7 +203,7 @@ class StrategyLearner(object):
             curr_holding += trade
             prev_row = row
             state = self.get_state_for_indicators(bb.ix[index][symbol], rsi.ix[index][symbol],
-                                                  macd.ix[index][symbol])
+                                                  macd.ix[index][symbol],vol_di.ix[index][symbol])
         return orders_df
 
 
@@ -205,14 +219,15 @@ class StrategyLearner(object):
         prices = prices_all[syms]  # only portfolio symbols
         (bb, rsi, macd) = self.get_discritized_indicator(prices, sd - timedelta(days=22))
         prices = prices[sd:]
-
+        volume_all = self.get_volume_df(dates, syms)
+        volume = volume_all[syms]
         orders_df = pd.DataFrame(index=prices.index, columns=[symbol])
         prices_iter = prices.iterrows()
-
+        vol_di = self.get_discritized_volume(volume, sd)
         curr_holding = 0
         index, row = next(prices_iter)
 
-        state = self.get_state_for_indicators(bb.ix[index][symbol], rsi.ix[index][symbol], macd.ix[index][symbol])
+        state = self.get_state_for_indicators(bb.ix[index][symbol], rsi.ix[index][symbol], macd.ix[index][symbol],vol_di.ix[index][symbol])
         action = self.q_learner.querysetstate(state)
 
         trade = self.calculate_trade(curr_holding,action)
@@ -225,7 +240,7 @@ class StrategyLearner(object):
             orders_df.ix[index][symbol] = sell_buy
             curr_holding += trade
             state = self.get_state_for_indicators(bb.ix[index][symbol], rsi.ix[index][symbol],
-                                                  macd.ix[index][symbol])
+                                                  macd.ix[index][symbol],vol_di.ix[index][symbol])
         return orders_df
 
  			  		 			 	 	 		 		 	  		   	  			  	

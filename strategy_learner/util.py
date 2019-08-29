@@ -23,10 +23,11 @@ def get_data(symbols, dates, addSPY=True, colname = 'Adj Close'):
     for symbol in symbols:  		   	  			    		  		  		    	 		 		   		 		  
         df_temp = pd.read_csv(symbol_to_path(symbol), index_col='Date',  		   	  			    		  		  		    	 		 		   		 		  
                 parse_dates=True, usecols=['Date', colname], na_values=['nan'])  		   	  			    		  		  		    	 		 		   		 		  
-        df_temp = df_temp.rename(columns={colname: symbol})  		   	  			    		  		  		    	 		 		   		 		  
-        df = df.join(df_temp)  		   	  			    		  		  		    	 		 		   		 		  
-        if symbol == 'SPY':  # drop dates SPY did not trade  		   	  			    		  		  		    	 		 		   		 		  
-            df = df.dropna(subset=["SPY"])  		   	  			    		  		  		    	 		 		   		 		  
+        df_temp = df_temp.rename(columns={colname: symbol})
+        df_temp = df_temp.loc[~df_temp.index.duplicated(keep='first')]
+        df = df.join(df_temp)
+        if symbol == 'SPY':  # drop dates SPY did not trade
+            df = df.dropna(subset=["SPY"])
   		   	  			    		  		  		    	 		 		   		 		  
     return df  		   	  			    		  		  		    	 		 		   		 		  
   		   	  			    		  		  		    	 		 		   		 		  

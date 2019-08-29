@@ -34,17 +34,17 @@ if __name__ == "__main__":
     end_day = datetime.now().date()
     start_day = end_day - timedelta(days=800)
 
-    # pull_historical_data('SPY', start_in_sample_time - timedelta(days=60), end_out_sample_time)
+    pull_historical_data('SPY', start_in_sample_time - timedelta(days=60), end_out_sample_time)
 
     investday = datetime.now().date()
     for row in sandpiter:
         try:
             sym = row[1]['Symbol']
-            # pull_historical_data(sym, start_in_sample_time - timedelta(days=60), end_out_sample_time)
+            pull_historical_data(sym, start_in_sample_time - timedelta(days=60), end_out_sample_time)
             st = StrategyLearner(verbose=False,impact=0.0)
             print "Started Learning for - {}".format(sym)
             st.addEvidence(sym, sd=start_in_sample_time +timedelta(days=2), ed=end_in_sample_time, sv=1000)
-            start_trade_day = dt.datetime(2019, 04, 22)
+            start_trade_day = dt.datetime(2019, 07, 01)
             print "Started Testing on Out Sample - {}".format(sym)
             orders = st.testPolicy(sym,sd=start_trade_day,ed=end_out_sample_time)
             out_sample_port_val = compute_portvals(orders,sym,1000,0.0,0.0)
