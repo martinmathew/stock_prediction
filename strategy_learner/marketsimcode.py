@@ -129,19 +129,19 @@ def test_code():
         "warning, code did not return a DataFrame"
 
     print
-    print "Sharpe Ratio of Fund: {}".format(sharpe_ratio)
+    print ("Sharpe Ratio of Fund: {}".format(sharpe_ratio))
     # print "Sharpe Ratio of SPY : {}".format(sharpe_ratio_SPY)
     print
-    print "Cumulative Return of Fund: {}".format(cum_ret)
+    print ("Cumulative Return of Fund: {}".format(cum_ret))
     # print "Cumulative Return of SPY : {}".format(cum_ret_SPY)
     print
-    print "Standard Deviation of Fund: {}".format(std_daily_ret)
+    print ("Standard Deviation of Fund: {}".format(std_daily_ret))
     # print "Standard Deviation of SPY : {}".format(std_daily_ret_SPY)
     # print
     # print "Average Daily Return of Fund: {}".format(avg_daily_ret)
     # print "Average Daily Return of SPY : {}".format(avg_daily_ret_SPY)
     print
-    print "Final Portfolio Value: {}".format(portvals[-1])
+    print ("Final Portfolio Value: {}".format(portvals[-1]))
 
 
 if __name__ == "__main__":

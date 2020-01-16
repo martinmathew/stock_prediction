@@ -129,7 +129,7 @@ class StrategyLearner(object):
             port_vals = compute_portvals(orders_df,symbol,sv,0,impact=self.impact)
             cr = self.get_cumulative_returns(port_vals)
             if (abs(prev_cr - cr[0]) < 0.00001 and minCount < 0) or maxCount < 0 :
-                print "Learner Return {}".format(cr[0])
+                print ("Learner Return {}".format(cr[0]))
                 break
             prev_cr = cr[0]
 

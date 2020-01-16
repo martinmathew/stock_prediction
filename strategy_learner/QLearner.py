@@ -78,7 +78,7 @@ class QLearner(object):
         else:
             res = np.where(self.q[s] == np.amax(self.q[s]))[0]
             action = res[0]
-        if self.verbose: print "s =", s, "a =", action
+        if self.verbose: print ("s =", s, "a =", action)
         self.a = action
         return action
 
@@ -98,7 +98,7 @@ class QLearner(object):
         else:
             res = np.where(self.q[s_prime] == np.amax(self.q[s_prime]))[0]
             action = res[0]
-        if self.verbose: print "s =", s_prime, "a =", action, "r =", r
+        if self.verbose: print ("s =", s_prime, "a =", action, "r =", r)
         if self.dyna > 0:
             kee = "{}:{}".format(self.s, self.a)
             if kee in self.exp_tuple:
@@ -124,7 +124,7 @@ class QLearner(object):
                 self.q[int(state_action[0])][int(state_action[1])] = (1.0 - self.alpha) * self.q[int(state_action[0])][int(state_action[1])] + self.alpha * (
                     value[0] + self.gamma * np.amax(self.q[value[1]]))
             except:
-                print "Error"
+                print ("Error")
 
 
 
@@ -134,4 +134,4 @@ class QLearner(object):
 
 
 if __name__ == "__main__":
-    print "Remember Q from Star Trek? Well, this isn't him"
+    print ("Remember Q from Star Trek? Well, this isn't him")

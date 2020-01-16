@@ -12,7 +12,7 @@ from marketsimcode import compute_portvals
 def pull_historical_data(ticker_symbol,sd,ed):
     stoc_data = pdr.get_data_yahoo(symbols=ticker_symbol, start=sd, end=ed)
     stoc_data.to_csv("../data/{}.csv".format(ticker_symbol))
-    print "Downloaded -{} data".format(ticker_symbol)
+    print ("Downloaded -{} data".format(ticker_symbol))
 
 
 def get_cumulative_returns(port_val):
@@ -46,23 +46,23 @@ if __name__ == "__main__":
             sym = row[1]['Symbol']
             pull_historical_data(sym, start_in_sample_time - timedelta(days=50), end_out_sample_time)
             st = StrategyLearner(verbose=False,impact=0.0)
-            print "Started Learning for - {}".format(sym)
+            print ("Started Learning for - {}".format(sym))
             st.addEvidence(sym, sd=start_in_sample_time + timedelta(days=2), ed=end_in_sample_time, sv=1000)
 
-            print "Started Testing on Out Sample - {}".format(sym)
+            print ("Started Testing on Out Sample - {}".format(sym))
             orders = st.testPolicy(sym,sd=start_out_sample_time,ed=end_out_sample_time)
             out_sample_port_val = compute_portvals(orders,sym,1000,0.0,0.0)
             cr = get_cumulative_returns(out_sample_port_val)
 
-            print "Started Testing for trading - {}".format(sym)
-            start_trade_day = dt.datetime(2019, 07, 22)
+            print ("Started Testing for trading - {}".format(sym))
+            start_trade_day = dt.datetime(2019, 7, 22)
             trading_orders = st.testPolicy(sym, sd=start_trade_day, ed=end_out_sample_time)
 
             if cr[0] >0.10:
                 # f.writelines("{},{}\n".format(row[1]['Symbol'],row[1]['Name']))
                 # f.flush()
-                print "*************************************************************************************"
-                print "Cumulative in Out Sample for : {} : {}".format(sym, cr)
+                print ("*************************************************************************************")
+                print ("Cumulative in Out Sample for : {} : {}".format(sym, cr))
                 for index, row in trading_orders.iterrows():
                     action = None
                     if row[sym] == 0:
@@ -71,11 +71,11 @@ if __name__ == "__main__":
                         action = "Buy"
                     elif row[sym] < 0:
                         action = "Sell"
-                    print "{}:{}".format(index,action)
-                print "**************************************************************************************"
+                    print ("{}:{}".format(index,action))
+                print ("**************************************************************************************")
 
 
         except:
-            print"{} failed".format(row[1]['Symbol'])
+            print("{} failed".format(row[1]['Symbol']))
             traceback.print_exc()
     # f.close()

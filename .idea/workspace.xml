@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db905fa8-ebdf-4338-a346-102c9f7265ba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/personal_trading.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/personal_trading.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/A.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/A.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/AAL.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/AAL.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/AAP.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/AAP.csv" afterDir="false" />
@@ -19,6 +25,7 @@
       <change beforePath="$PROJECT_DIR$/data/AEE.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/AEE.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/AEP.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/AEP.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/AES.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/AES.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/AET.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/AET.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/AFL.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/AFL.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/AGN.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/AGN.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/AIG.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/AIG.csv" afterDir="false" />
@@ -40,6 +47,7 @@
       <change beforePath="$PROJECT_DIR$/data/AMP.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/AMP.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/AMT.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/AMT.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/AMZN.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/AMZN.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ANDV.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/ANDV.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/ANSS.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/ANSS.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/ANTM.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/ANTM.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/AON.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/AON.csv" afterDir="false" />
@@ -64,6 +72,7 @@
       <change beforePath="$PROJECT_DIR$/data/BAX.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/BAX.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/BBT.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/BBT.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/BBY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/BBY.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/BCH-USD.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/BCH-USD.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/BDX.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/BDX.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/BEN.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/BEN.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/BHF.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/BHF.csv" afterDir="false" />
@@ -79,6 +88,7 @@
       <change beforePath="$PROJECT_DIR$/data/BWA.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/BWA.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/BXP.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/BXP.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/C.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/C.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CA.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/CA.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/CAG.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/CAG.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/CAH.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/CAH.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/CAT.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/CAT.csv" afterDir="false" />
@@ -118,6 +128,7 @@
       <change beforePath="$PROJECT_DIR$/data/CPB.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/CPB.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/CRM.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/CRM.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/CSCO.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/CSCO.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CSRA.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/CSRA.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/CSX.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/CSX.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/CTAS.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/CTAS.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/CTL.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/CTL.csv" afterDir="false" />
@@ -163,10 +174,12 @@
       <change beforePath="$PROJECT_DIR$/data/EQR.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/EQR.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/EQT.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/EQT.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/ES.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/ES.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/ESRX.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/ESRX.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/ESS.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/ESS.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/ETFC.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/ETFC.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/ETN.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/ETN.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/ETR.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/ETR.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/EVHC.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/EVHC.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/EW.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/EW.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/EXC.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/EXC.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/EXPD.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/EXPD.csv" afterDir="false" />
@@ -308,6 +321,7 @@
       <change beforePath="$PROJECT_DIR$/data/MMM.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/MMM.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/MNST.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/MNST.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/MO.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/MO.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/MON.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/MON.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/MOS.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/MOS.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/MPC.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/MPC.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/MRK.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/MRK.csv" afterDir="false" />
@@ -326,6 +340,7 @@
       <change beforePath="$PROJECT_DIR$/data/NEE.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/NEE.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/NEM.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/NEM.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/NFLX.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/NFLX.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/NFX.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/NFX.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/NI.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/NI.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/NKE.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/NKE.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/NKTR.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/NKTR.csv" afterDir="false" />
@@ -374,6 +389,7 @@
       <change beforePath="$PROJECT_DIR$/data/PSX.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PSX.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/PVH.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PVH.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/PWR.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PWR.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/PX.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PX.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/PXD.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PXD.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/PYPL.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/PYPL.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/QCOM.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/QCOM.csv" afterDir="false" />
@@ -484,6 +500,7 @@
       <change beforePath="$PROJECT_DIR$/data/WYNN.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/WYNN.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/XEC.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/XEC.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/XEL.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/XEL.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/XL.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/XL.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/XLNX.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/XLNX.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/XOM.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/XOM.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/XRAY.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/XRAY.csv" afterDir="false" />
@@ -493,12 +510,50 @@
       <change beforePath="$PROJECT_DIR$/data/ZBH.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/ZBH.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/ZION.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/ZION.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/ZTS.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/ZTS.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/TDG.csv" beforeDir="false" afterPath="$PROJECT_DIR$/orders/TDG.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stocks/amex.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stocks/amex.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stocks/my_crypto.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stocks/my_crypto.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stocks/my_stocks.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stocks/my_stocks.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stocks/nasdaq.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stocks/nasdaq.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stocks/nyse.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stocks/nyse.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stocks/profitmystock.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stocks/profitmystock.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stocks/sandp.csv" beforeDir="false" afterPath="$PROJECT_DIR$/stocks/sandp.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy_learner/.cache/v/cache/lastfailed" beforeDir="false" afterPath="$PROJECT_DIR$/strategy_learner/.cache/v/cache/lastfailed" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy_learner/09-Aug-2019" beforeDir="false" afterPath="$PROJECT_DIR$/strategy_learner/09-Aug-2019" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy_learner/09-Aug-2019.txt" beforeDir="false" afterPath="$PROJECT_DIR$/strategy_learner/09-Aug-2019.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy_learner/12-Aug-2019.txt" beforeDir="false" afterPath="$PROJECT_DIR$/strategy_learner/12-Aug-2019.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy_learner/13-Aug-2019.txt" beforeDir="false" afterPath="$PROJECT_DIR$/strategy_learner/13-Aug-2019.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy_learner/14-Aug-2019.txt" beforeDir="false" afterPath="$PROJECT_DIR$/strategy_learner/14-Aug-2019.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy_learner/15-Aug-2019.txt" beforeDir="false" afterPath="$PROJECT_DIR$/strategy_learner/15-Aug-2019.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy_learner/16-Aug-2019.txt" beforeDir="false" afterPath="$PROJECT_DIR$/strategy_learner/16-Aug-2019.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy_learner/19-Aug-2019.txt" beforeDir="false" afterPath="$PROJECT_DIR$/strategy_learner/19-Aug-2019.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy_learner/20-Aug-2019.txt" beforeDir="false" afterPath="$PROJECT_DIR$/strategy_learner/20-Aug-2019.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy_learner/21-Aug-2019.txt" beforeDir="false" afterPath="$PROJECT_DIR$/strategy_learner/21-Aug-2019.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy_learner/22-Aug-2019.txt" beforeDir="false" afterPath="$PROJECT_DIR$/strategy_learner/22-Aug-2019.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy_learner/23-Aug-2019.txt" beforeDir="false" afterPath="$PROJECT_DIR$/strategy_learner/23-Aug-2019.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy_learner/24-Aug-2019.txt" beforeDir="false" afterPath="$PROJECT_DIR$/strategy_learner/24-Aug-2019.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy_learner/26-Aug-2019.txt" beforeDir="false" afterPath="$PROJECT_DIR$/strategy_learner/26-Aug-2019.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy_learner/27-Aug-2019.txt" beforeDir="false" afterPath="$PROJECT_DIR$/strategy_learner/27-Aug-2019.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy_learner/28-Aug-2019.txt" beforeDir="false" afterPath="$PROJECT_DIR$/strategy_learner/28-Aug-2019.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy_learner/29-Aug-2019.txt" beforeDir="false" afterPath="$PROJECT_DIR$/strategy_learner/29-Aug-2019.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy_learner/Correlation.py" beforeDir="false" afterPath="$PROJECT_DIR$/strategy_learner/Correlation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy_learner/ManualStrategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/strategy_learner/ManualStrategy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy_learner/QLearner.py" beforeDir="false" afterPath="$PROJECT_DIR$/strategy_learner/QLearner.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/strategy_learner/StrategyLearner.py" beforeDir="false" afterPath="$PROJECT_DIR$/strategy_learner/StrategyLearner.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/strategy_learner/TradingTips.py" beforeDir="false" afterPath="$PROJECT_DIR$/strategy_learner/TradingTips.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/strategy_learner/TradingTipsCrypto.py" beforeDir="false" afterPath="$PROJECT_DIR$/strategy_learner/TradingTipsCrypto.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/strategy_learner/TradingTipsSpecficStocks.py" beforeDir="false" afterPath="$PROJECT_DIR$/strategy_learner/TradingTipsSpecficStocks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy_learner/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/strategy_learner/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy_learner/comments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/strategy_learner/comments.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy_learner/grade_strategy_learner.py" beforeDir="false" afterPath="$PROJECT_DIR$/strategy_learner/grade_strategy_learner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy_learner/indicators.py" beforeDir="false" afterPath="$PROJECT_DIR$/strategy_learner/indicators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy_learner/marketsimcode.py" beforeDir="false" afterPath="$PROJECT_DIR$/strategy_learner/marketsimcode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy_learner/mystock.csv" beforeDir="false" afterPath="$PROJECT_DIR$/strategy_learner/mystock.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy_learner/points.txt" beforeDir="false" afterPath="$PROJECT_DIR$/strategy_learner/points.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy_learner/profitmystock.csv" beforeDir="false" afterPath="$PROJECT_DIR$/strategy_learner/profitmystock.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy_learner/tips_07_17.txt" beforeDir="false" afterPath="$PROJECT_DIR$/strategy_learner/tips_07_17.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy_learner/tips_07_17_2019.txt" beforeDir="false" afterPath="$PROJECT_DIR$/strategy_learner/tips_07_17_2019.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy_learner/tips_07_18.txt" beforeDir="false" afterPath="$PROJECT_DIR$/strategy_learner/tips_07_18.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tips/tips_stocks_07_29.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tips/tips_stocks_07_29.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -509,10 +564,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/strategy_learner/TradingTips.py">
+        <entry file="file://$PROJECT_DIR$/strategy_learner/TradingTipsCrypto.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="61" column="37" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
+            <state relative-caret-position="303">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -520,86 +575,102 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strategy_learner/TradingTips.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="49" column="69" selection-start-line="49" selection-start-column="69" selection-end-line="49" selection-end-column="69" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strategy_learner/indicators.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strategy_learner/15-Jan-2020.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2475" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strategy_learner/QLearner.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="136" column="61" selection-start-line="136" selection-start-column="61" selection-end-line="136" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strategy_learner/marketsimcode.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="143" column="60" selection-start-line="143" selection-start-column="60" selection-end-line="143" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strategy_learner/StrategyLearner.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1314">
+              <caret line="131" column="57" selection-start-line="131" selection-start-column="57" selection-end-line="131" selection-end-column="57" />
+              <folding>
+                <element signature="e#1966#1987#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strategy_learner/util.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="645">
+              <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+              <folding>
+                <element signature="e#462#517#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/stocks/profitmystock.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state>
-              <caret column="11" selection-start-column="11" selection-end-column="11" />
-            </state>
-          </provider>
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stocks/my_stocks.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state>
-              <caret selection-end-column="11" />
-            </state>
-          </provider>
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/strategy_learner/mystock.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="-2689" />
-          </provider>
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/strategy_learner/28-Aug-2019.txt">
+        <entry file="file://$PROJECT_DIR$/env.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-92092" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/strategy_learner/profitmystock.csv">
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="-2851" />
-          </provider>
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/strategy_learner/23-Aug-2019.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/strategy_learner/22-Aug-2019.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/strategy_learner/20-Aug-2019.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37680">
-              <caret line="2512" column="15" selection-start-line="2512" selection-start-column="12" selection-end-line="2512" selection-end-column="15" />
+            <state relative-caret-position="105">
+              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/strategy_learner/21-Aug-2019.txt">
+        <entry file="file://$USER_HOME$/ml4t-venv/local/lib/python2.7/site-packages/hmmlearn/hmm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38370">
-              <caret line="2558" column="24" selection-start-line="2558" selection-start-column="24" selection-end-line="2558" selection-end-column="24" />
+            <state relative-caret-position="1935">
+              <caret line="137" column="8" selection-start-line="137" selection-start-column="8" selection-end-line="137" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -615,6 +686,17 @@
       <find>AZO</find>
       <find>ANSS</find>
       <find>GD</find>
+      <find>2019-08-30 00:00:00:Buy</find>
+      <find>2019-09-03 00:00:00:Buy</find>
+      <find>LMT : value</find>
+      <find>IDXX : value</find>
+      <find>MCD : value</find>
+      <find>EXR : value</find>
+      <find>2019-09-04 00:00:00:Buy</find>
+      <find>EXR</find>
+      <find>2020-01-02 00:00:00:Buy</find>
+      <find>MKC</find>
+      <find>rolling_mean</find>
     </findStrings>
     <replaceStrings>
       <replace>10</replace>
@@ -627,33 +709,27 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/strategy_learner/TradingTipsSpecficStocks.py" />
-        <option value="$PROJECT_DIR$/strategy_learner/marketsimcode.py" />
         <option value="$PROJECT_DIR$/stocks/my_crypto.csv" />
         <option value="$PROJECT_DIR$/strategy_learner/util.py" />
         <option value="$PROJECT_DIR$/data/SPY.csv" />
         <option value="$PROJECT_DIR$/strategy_learner/TradingTipsCrypto.py" />
-        <option value="$PROJECT_DIR$/strategy_learner/StrategyLearner.py" />
         <option value="$PROJECT_DIR$/stocks/my_stocks.csv" />
-        <option value="$PROJECT_DIR$/strategy_learner/TradingTips.py" />
         <option value="$PROJECT_DIR$/stocks/profitmystock.csv" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/personal_trading.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/ass_6.py" />
+        <option value="$PROJECT_DIR$/strategy_learner/TradingTips.py" />
+        <option value="$PROJECT_DIR$/strategy_learner/StrategyLearner.py" />
+        <option value="$PROJECT_DIR$/strategy_learner/QLearner.py" />
+        <option value="$PROJECT_DIR$/strategy_learner/marketsimcode.py" />
+        <option value="$PROJECT_DIR$/strategy_learner/indicators.py" />
+        <option value="$PROJECT_DIR$/env.yml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1979" />
-    <option name="y" value="160" />
-    <option name="width" value="1717" />
-    <option name="height" value="977" />
+    <option name="x" value="1990" />
+    <option name="y" value="27" />
+    <option name="width" value="1850" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -671,12 +747,12 @@
             <path>
               <item name="personal_trading" type="b2602c69:ProjectViewProjectNode" />
               <item name="personal_trading" type="462c0819:PsiDirectoryNode" />
-              <item name="stocks" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy_learner" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="personal_trading" type="b2602c69:ProjectViewProjectNode" />
               <item name="personal_trading" type="462c0819:PsiDirectoryNode" />
-              <item name="strategy_learner" type="462c0819:PsiDirectoryNode" />
+              <item name="tips" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -685,6 +761,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/stocks" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -782,9 +859,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ass_6" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="personal_trading" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ass_6.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.TradingTips" />
+        <item itemvalue="Python.ass_6" />
         <item itemvalue="Python.TradingTipsSpecficStocks" />
         <item itemvalue="Python.TradingTipsCrypto" />
       </list>
@@ -807,23 +907,34 @@
       <workItem from="1565736514544" duration="2473000" />
       <workItem from="1566298610428" duration="11250000" />
       <workItem from="1566648536148" duration="1384000" />
-      <workItem from="1566881823508" duration="3109000" />
+      <workItem from="1566881823508" duration="3397000" />
+      <workItem from="1567200427177" duration="2970000" />
+      <workItem from="1567426537403" duration="1619000" />
+      <workItem from="1567596723534" duration="917000" />
+      <workItem from="1567679324853" duration="1399000" />
+      <workItem from="1567680878647" duration="1285000" />
+      <workItem from="1567736681857" duration="137000" />
+      <workItem from="1567974958237" duration="1326000" />
+      <workItem from="1573699755217" duration="2181000" />
+      <workItem from="1577448233689" duration="1404000" />
+      <workItem from="1578052785713" duration="2326000" />
+      <workItem from="1579139134435" duration="5117000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49392000" />
+    <option name="totallyTimeSpent" value="70361000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1987" y="82" width="1853" height="1055" extended-state="6" />
+    <frame x="1990" y="27" width="1850" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25179857" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19900222" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4298056" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42966193" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2613391" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -832,12 +943,12 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32937366" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3293348" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.27670172" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.15576497" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -857,13 +968,19 @@
           <line>61</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ass_6.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/personal_trading$TradingTipsSpecficStocks.coverage" NAME="TradingTipsSpecficStocks Coverage Results" MODIFIED="1565132469010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strategy_learner" />
+    <SUITE FILE_PATH="coverage/personal_trading$ass_6.coverage" NAME="ass_6 Coverage Results" MODIFIED="1573702456334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/personal_trading$TradingTipsCrypto.coverage" NAME="TradingTipsCrypto Coverage Results" MODIFIED="1565049461642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strategy_learner" />
-    <SUITE FILE_PATH="coverage/personal_trading$TradingTips.coverage" NAME="TradingTips Coverage Results" MODIFIED="1566648685150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strategy_learner" />
+    <SUITE FILE_PATH="coverage/personal_trading$TradingTips.coverage" NAME="TradingTips Coverage Results" MODIFIED="1579143764561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/strategy_learner" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -915,16 +1032,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/ACN.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="351">
-          <caret line="659" column="73" selection-start-line="659" selection-start-column="73" selection-end-line="659" selection-end-column="73" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/AMT.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="9795">
@@ -1007,37 +1114,6 @@
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/strategy_learner/marketsimcode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strategy_learner/indicators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strategy_learner/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strategy_learner/TradingTipsCrypto.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/SPY.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="306">
@@ -1080,16 +1156,6 @@
     <entry file="file://$PROJECT_DIR$/strategy_learner/13-Aug-2019.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/strategy_learner/TradingTipsSpecficStocks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="32" column="35" selection-start-line="54" selection-start-column="80" selection-end-line="54" selection-end-column="99" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stocks/sandp.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="178">
@@ -1102,13 +1168,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/strategy_learner/09-Aug-2019">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strategy_learner/StrategyLearner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/strategy_learner/19-Aug-2019.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -1127,6 +1186,44 @@
     <entry file="file://$PROJECT_DIR$/strategy_learner/23-Aug-2019.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/strategy_learner/29-Aug-2019.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stocks/profitmystock.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stocks/my_stocks.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret selection-end-column="11" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy_learner/mystock.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy_learner/28-Aug-2019.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy_learner/profitmystock.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/strategy_learner/22-Aug-2019.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1144,55 +1241,166 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/strategy_learner/mystock.csv">
+    <entry file="file://$PROJECT_DIR$/strategy_learner/30-Aug-2019.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115200">
+          <caret line="7680" column="23" selection-start-line="7680" selection-end-line="7680" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/EXR.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-2689" />
+        <state relative-caret-position="-9">
+          <caret line="630" column="2" selection-start-line="630" selection-start-column="2" selection-end-line="630" selection-end-column="89" />
+        </state>
       </provider>
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/strategy_learner/28-Aug-2019.txt">
+    <entry file="file://$PROJECT_DIR$/strategy_learner/06-Sep-2019.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-92092" />
+        <state relative-caret-position="166">
+          <caret line="1849" column="6" selection-start-line="1849" selection-start-column="6" selection-end-line="1850" selection-end-column="10" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/strategy_learner/profitmystock.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-2851" />
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+    <entry file="file://$PROJECT_DIR$/strategy_learner/03-Sep-2019.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95355">
+          <caret line="6357" column="42" selection-start-line="6357" selection-start-column="31" selection-end-line="6357" selection-end-column="42" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/strategy_learner/TradingTips.py">
+    <entry file="file://$PROJECT_DIR$/strategy_learner/04-Sep-2019.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="61" column="37" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
+        <state relative-caret-position="103665">
+          <caret line="6911" column="23" selection-start-line="6911" selection-end-line="6911" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy_learner/05-Sep-2019.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27090">
+          <caret line="1806" column="34" selection-start-line="1806" selection-start-column="31" selection-end-line="1806" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy_learner/09-Sep-2019.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26550">
+          <caret line="1770" column="1" selection-start-line="1770" selection-start-column="1" selection-end-line="1770" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy_learner/01-Nov-2019.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy_learner/02-Jan-2020.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="4364" column="24" selection-start-line="4364" selection-start-column="24" selection-end-line="4364" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ass_6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy_learner/TradingTipsSpecficStocks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stocks/my_stocks.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret selection-end-column="11" />
+    <entry file="file://$USER_HOME$/ml4t-venv/local/lib/python2.7/site-packages/hmmlearn/hmm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1935">
+          <caret line="137" column="8" selection-start-line="137" selection-start-column="8" selection-end-line="137" selection-end-column="8" />
         </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stocks/profitmystock.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
+    <entry file="file://$PROJECT_DIR$/strategy_learner/TradingTipsCrypto.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy_learner/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+          <folding>
+            <element signature="e#462#517#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy_learner/StrategyLearner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1314">
+          <caret line="131" column="57" selection-start-line="131" selection-start-column="57" selection-end-line="131" selection-end-column="57" />
+          <folding>
+            <element signature="e#1966#1987#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy_learner/QLearner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="136" column="61" selection-start-line="136" selection-start-column="61" selection-end-line="136" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy_learner/marketsimcode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="143" column="60" selection-start-line="143" selection-start-column="60" selection-end-line="143" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy_learner/TradingTips.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="49" column="69" selection-start-line="49" selection-start-column="69" selection-end-line="49" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy_learner/indicators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy_learner/15-Jan-2020.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2475" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
       </provider>
     </entry>
   </component>
